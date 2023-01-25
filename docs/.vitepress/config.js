@@ -6,10 +6,10 @@ export default {
   description: 'Aprenda programar.',
 
   themeConfig: {
-    nav: nav(),
+    nav: menu(),
 
     sidebar: {
-      '/java/fundamentos': javaFundamentos(),
+      
     },
 
     editLink: {
@@ -27,56 +27,22 @@ export default {
     }
   }
 }
-function javaFundamentos(){
-  return [
-    {
-      text: 'Fundamentos',collapsible: true,
-      items: [
-      { text: 'Era Sun', link: '/guide/what-is-vitepress' },
-      { text: 'Era Oracle', link: '/guide/what-is-vitepress', items: [
-        { text: 'Era Sun', link: '/guide/what-is-vitepress' },
-        { text: 'Era Oracle', link: '/guide/what-is-vitepress' },
-      ] },
-      ]
-    },
-    {
-      text: 'Fundamentos',collapsible: true,
-      items: [
-      { text: 'Era Sun', link: '/guide/what-is-vitepress' },
-      { text: 'Era Oracle', link: '/guide/what-is-vitepress', items: [
-        { text: 'Era Sun', link: '/guide/what-is-vitepress' },
-        { text: 'Era Oracle', link: '/guide/what-is-vitepress' },
-      ] },
-      ]
-    },
-    {
-      text: 'Fundamentos',collapsible: true,
-      items: [
-      { text: 'Era Sun', link: '/guide/what-is-vitepress' },
-      { text: 'Era Oracle', link: '/guide/what-is-vitepress', items: [
-        { text: 'Era Sun', link: '/guide/what-is-vitepress' },
-        { text: 'Era Oracle', link: '/guide/what-is-vitepress' },
-      ] },
-      ]
-    },
-];
-}
-function nav() {
+function menu() {
   return [
   
     { 
-      text: 'Java', 
+      text: 'Linguagens', 
       items:[
-        {text:'Fundamentos',link:'/java/fundamentos/index'},
-        {text:'Básico',link:'/java/basico'},
-        {text:'Intermediário',link:'/java/intermediario'},
-        {text:'Avançado',link:'/java/avancado'},
+        {text:'Java', link:'/topicos/linguagens/java/index'},
+        {text:'Java Script', link:'/topicos/linguagens/javascript/index'},
+        {text:'Type Script',link:'/java/intermediario'},
+        {text:'C-Sharp',link:'/java/avancado'},
       ]
     },
     
-    { text: 'Spring', link: '/spring/index', activeMatch: '/spring/' },
-    { text: 'Database', link: '/database/index', activeMatch: '/database/' },
-    { text: 'Web', link: '/web/index', activeMatch: '/web/' },
+    { text: 'Frameworks', link: '/spring/index' },
+    { text: 'Dados', link: '/database/index'},
+    { text: 'Design', link: '/web/index'},
   
     {
       text: version,
@@ -94,46 +60,3 @@ function nav() {
   ]
 }
 
-function controleFluxoSb() {
-  return [
-    {
-      text: 'Estruturas condicionais',
-      collapsible: true,
-      items: [
-        { text: 'if-else', link: '/guide/what-is-vitepress' },
-        { text: 'switch-case', link: '/guide/what-is-vitepress' },
-      ]
-    },
-    {
-      text: 'Estruturas de repetição',
-      collapsible: true,
-      items: [
-        { text: 'for', link: '/guide/what-is-vitepress' },
-        { text: 'while', link: '/guide/what-is-vitepress' },
-        { text: 'do-while', link: '/guide/what-is-vitepress' },
-      ]
-    },
-    {
-      text: 'Estruturas excepcionais',
-      collapsible: true,
-      items: [
-        { text: 'try-catch-finally', link: '/guide/what-is-vitepress' },
-        { text: 'throw', link: '/guide/what-is-vitepress' }
-      ]
-    }
-  ]
-}
-
-function sidebarConfig() {
-  return [
-    {
-      text: 'Config',
-      items: [
-        { text: 'Introduction', link: '/config/introduction' },
-        { text: 'App Configs', link: '/config/app-configs' },
-        { text: 'Theme Configs', link: '/config/theme-configs' },
-        { text: 'Frontmatter Configs', link: '/config/frontmatter-configs' }
-      ]
-    }
-  ]
-}
