@@ -1,4 +1,6 @@
 import { version } from '../../package.json'
+import { javasb } from '../.vitepress/sidebar/java'
+import { javascriptsb } from '../.vitepress/sidebar/javascript'
 
 export default {
   lang: 'en-US',
@@ -9,7 +11,8 @@ export default {
     nav: menu(),
 
     sidebar: {
-      
+      '/topicos/linguagens/java/': javasb,
+      '/topicos/linguagens/javascript/': javascriptsb,
     },
 
     editLink: {

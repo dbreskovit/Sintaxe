@@ -1,4 +1,4 @@
-export const index = [
+export const javasb = [
       {
         text: 'Fundamentos',collapsible: true,
         items: [
