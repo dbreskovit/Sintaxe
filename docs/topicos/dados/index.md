@@ -1,5 +1,5 @@
 # Digytal Code - Programação, Pesquisa e Educação
-[www.digytal.com.br](http://www.digytal.com.br) 
+[www.digytal.com.br](http://www.digytal.com.br)
 
 [(11) 95894-0362](https://api.whatsapp.com/send?phone=5511958940362)
 
@@ -33,9 +33,9 @@ Os requisitos do projeto serão estruturados baseados em processos simples, que 
 
 Vamos iniciar o nosso MVP (Produto Mínimo Viável) considerando o seguinte aspecto:
 
-Espera-se que através de visitas nos estabelecimentos rurais, o time de coleta de dados conseguir através de preenchimento de formularários impressos objeter as seguintes informações:
+Espera-se que através de visitas nos estabelecimentos rurais, o time de coleta de dados deverá através de preenchimento dos formulários impressos obter as seguintes informações:
 
-1. Dados Pessoais: Nome, Data Nascimento, Sexo, Nome do Pai, Nome da Mae, Estado Civil, Renda Atual, Telefone, Celular, Email
+1. Dados Pessoais: Nome, Data Nascimento, CPF\CNPJ,  Sexo, Nome da Mae, Estado Civil, Renda Atual, Telefone, Celular, Email
 1. Dados de Endereço: Logradouro, Numero, Bairro, Complemento, Cidade, Estado
 
 > Nesta primeira etapa, devemos considerar a necessidade de explorar os conceitos da orientação a objetos, noções de UML e tipos de dados
@@ -50,11 +50,18 @@ Espera-se que através de visitas nos estabelecimentos rurais, o time de coleta 
 
 #### Requisitos do BACEN
 
-| Ordem | Campo          | Tamanho  | Valor Real                              | Valor Formatado               |
-| ----- |----------------|----------|-----------------------------------------|-------------------------------|
-| 01    | Data           | 08       | 16/04/2022                              | 20220416                      |
-| 02    | CPF\CNPJ       | 14       | 135.217.791-18                          | 00013521779118                |
-| 03    | Nome Cliente   | 30       | RAIMUNDO NONATO LOUREIRO CASTELO BRANCO | RAIMUNDO NONATO LOUREIRO CAST |
+O BACEN solicitou para a nossa instituição financeira o envio dos cadastros coletados atráves de uma comunicação inicialmente por e-mail contendo em seu anexo o arquivo de nome **conta-rural-fichas-cadastrais-bacen.txt** conforme layout posicional abaixo:
+
+| Ordem | Campo        | Tamanho | Valor Real                                              | Valor Formatado                | Observação                                                              |
+|-------|--------------|---------|---------------------------------------------------------|--------------------------------|-------------------------------------------------------------------------|
+| 01    | Nome         | 30      | Raimundo Nonato Loureiro Castelo Branco                 | RAIMUNDO NONATO LOUREIRO CASTE | Se o nome for superior a 30 caracteres, cortar o final do nome          |
+| 02    | Data         | 08      | 16/04/1986                                              | 19860416                       |                                                                         |
+| 03    | CPF\CNPJ     | 14      | 135.217.791-18                                          | 00013521779118                 |                                                                         |
+| 04    | Sexo         | 1       | Masculino (M) / Feminino (F)                            | M / F                          |                                                                         |
+| 05    | Nome da Mae  | 30      | Cristina Castelo Branco                                 | CRISTINA CASTELO BRANCO        | Se o nome for inferior a 30 caracteres, preencher com espaços em branco |
+| 06    | Estado Civil | 1       | Solteiro(a) (S) / Casado(a) (C), Divorciado(a) (D), Viuvo(a) (V) | S / C / D / V                  |  |
+
+
 | 04    | Valor          | 10       | 1.275,48                                | 0000127548                    |
 | 05    | Tipo Movimento | 1        | RECEITA / DESPESA                       | C ou D                        |
 | 06    | Estornado      | 1        | true / false                            | 1 ou 0                        |
