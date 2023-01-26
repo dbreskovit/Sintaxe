@@ -52,17 +52,25 @@ Espera-se que através de visitas nos estabelecimentos rurais, o time de coleta 
 
 O BACEN solicitou para a nossa instituição financeira o envio dos cadastros coletados atráves de uma comunicação inicialmente por e-mail contendo em seu anexo o arquivo de nome **conta-rural-fichas-cadastrais-bacen.txt** conforme layout posicional abaixo:
 
-| Ordem | Campo        | Tamanho | Valor Real                                              | Valor Formatado                | Observação                                                              |
-|-------|--------------|---------|---------------------------------------------------------|--------------------------------|-------------------------------------------------------------------------|
-| 01    | Nome         | 30      | Raimundo Nonato Loureiro Castelo Branco                 | RAIMUNDO NONATO LOUREIRO CASTE | Se o nome for superior a 30 caracteres, cortar o final do nome          |
-| 02    | Data         | 08      | 16/04/1986                                              | 19860416                       |                                                                         |
-| 03    | CPF\CNPJ     | 14      | 135.217.791-18                                          | 00013521779118                 |                                                                         |
-| 04    | Sexo         | 1       | Masculino (M) / Feminino (F)                            | M / F                          |                                                                         |
-| 05    | Nome da Mae  | 30      | Cristina Castelo Branco                                 | CRISTINA CASTELO BRANCO        | Se o nome for inferior a 30 caracteres, preencher com espaços em branco |
-| 06    | Estado Civil | 1       | Solteiro(a) (S) / Casado(a) (C), Divorciado(a) (D), Viuvo(a) (V) | S / C / D / V                  |  |
+| Ordem | Campo        | Tamanho | Valor Originial - Inserido sem padrão                            | Valor Formatado (BACEN)          | Observação                                                                 |
+|-------|--------------|---------|------------------------------------------------------------------|----------------------------------|----------------------------------------------------------------------------|
+| 01    | Nome         | 30      | Raimundo Nonato Loureiro Castelo Branco                          | RAIMUNDO NONATO LOUREIRO CASTE   | Se o nome for superior a 30 caracteres, cortar o final do nome             |
+| 02    | Data         | 08      | 16/04/1986                                                       | 19860416                         |                                                                            |
+| 03    | CPF\CNPJ     | 14      | 135.217.791-18                                                   | 00013521779118                   |                                                                            |
+| 04    | Sexo         | 1       | Masculino (M) / Feminino (F)                                     | M / F                            |                                                                            |
+| 05    | Nome da Mae  | 30      | Cristina Castelo Branco                                          | CRISTINA CASTELO BRANCO          | Se o nome for inferior a 30 caracteres, preencher com espaços em branco    |
+| 06    | Estado Civil | 1       | Solteiro(a) (S) / Casado(a) (C), Divorciado(a) (D), Viuvo(a) (V) | S / C / D / V                    |                                                                            |
+| 07    | Renda Atual  | 10      | 1.275,48                                                         | 0000127548                       | Em caso não ter renda, preencher com 0000000000                            |
+| 08    | Telefone     | 10      | (11) 3351-1010                                                   | 1133511010                       | Em caso não ter telefone, preecher com 10 espaços em braco                 |
+| 09    | Celular      | 11      | (11) 94565-2353                                                  | 11945652353                      | Em caso não ter celular, preecher com 11 espaços em braco                  | 
+| 10    | E-mail       | 50      | raimundo.nonato@gmail.com                                        | Garantir caracteres em mínúsculo | Em caso não ter celular, preecher com 11 espaços em braco                  | 
+| 11    | Lougradouro  | 60      | Ruas das laranjeiras                                             | RUAS DAS LARANJEIRAS             | Aplicar as mesmas regras de ajustes de campos considerando o limite máximo | 
+| 12    | Lougradouro  | 5       | 123                                                              | 00123                            |                                                                            | 
+| 13    | Bairro       | 30      | Vila Nazare                                                      | VILA NAZARE                      | Aplicar as mesmas regras de ajustes de campos considerando o limite máximo | 
+| 14    | Complemento  | 20      | Bl 03 ap 113                                                     | BL 03 AP 113                     | Aplicar as mesmas regras de ajustes de campos considerando o limite máximo | 
+| 15    | Cidade       | 50      | Teresina                                                         | TERESINA                         | Aplicar as mesmas regras de ajustes de campos considerando o limite máximo | 
+| 16    | Estado       | 2       | Pi                                                               | PI                               | Aplicar as mesmas regras de ajustes de campos considerando o limite máximo | 
 
 
-| 04    | Valor          | 10       | 1.275,48                                | 0000127548                    |
-| 05    | Tipo Movimento | 1        | RECEITA / DESPESA                       | C ou D                        |
-| 06    | Estornado      | 1        | true / false                            | 1 ou 0                        |
+# Em breve novos conteúdos
 
