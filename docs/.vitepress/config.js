@@ -1,6 +1,7 @@
 import { version } from '../../package.json'
 import { javasb } from '../.vitepress/sidebar/java'
 import { javascriptsb } from '../.vitepress/sidebar/javascript'
+import { topicssb } from '../.vitepress/topics'
 
 export default {
   lang: 'en-US',
@@ -11,6 +12,8 @@ export default {
     nav: menu(),
 
     sidebar: {
+      '/topicos/logica': topicssb,
+      '/topicos/algoritimos': topicssb,
       '/topicos/linguagens/java/': javasb,
       '/topicos/linguagens/javascript/': javascriptsb,
     },
@@ -36,6 +39,8 @@ function menu() {
     { 
       text: 'Linguagens', 
       items:[
+        {text:'Lógica', link:'/topicos/logica'},
+        {text:'Algorítimos', link:'/topicos/algoritimos'},
         {text:'Java', link:'/topicos/linguagens/java/index'},
         {text:'Java Script', link:'/topicos/linguagens/javascript/index'},
         {text:'Type Script',link:'/java/intermediario'},
