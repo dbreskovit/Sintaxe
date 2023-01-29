@@ -14,7 +14,15 @@ export const topicssb = [
       { 
         text: 'Frameworks', 
         items:[
-          {text:'Spring', link:'/soon'},
+          {text:'SpringBoot', items:[
+            {text:'Spring Data Jpa', link:'/soon'},
+            {text:'Spring Web', link:'/soon'},
+            {text:'Spring Security', link:'/soon'},
+          ]},
+          {text:'ORM', items:[
+            {text:'JPA', link:'/soon'},
+            {text:'Hibernate', link:'/soon'}
+          ]}
         ]
       },
       { 
@@ -22,6 +30,10 @@ export const topicssb = [
         items:[
           {text:'SQL', link:'/soon'},
           {text:'NoSQL', link:'/soon'},
+          {text:'Postgre', link:'/soon'},
+          {text:'MySQL', link:'/soon'},
+          {text:'SQL Server', link:'/soon'},
+          {text:'Oracle', link:'/soon'},
         ]
       },
       { 
@@ -36,11 +48,11 @@ export const topicssb = [
         items: [
           {
             text: 'Changelog',
-            link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'
+            link: 'https://github.com/glysns/digytal-book/commits/main'
           },
           {
             text: 'Contributing',
-            link: 'https://github.com/vuejs/vitepress/blob/main/.github/contributing.md'
+            link: 'https://github.com/glysns/digytal-book/blob/main/docs/contributing.md'
           }
         ]
       }
