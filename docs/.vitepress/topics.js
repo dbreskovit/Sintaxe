@@ -6,29 +6,29 @@ export const topicssb = [
           {text:'Lógica', link:'/topicos/logica'},
           {text:'Algorítimos', link:'/topicos/algoritimos'},
           {text:'Java', link:'/topicos/linguagens/java/index'},
-          {text:'Java Script', link:'/topicos/linguagens/javascript/index'},
-          {text:'Type Script',link:'/java/intermediario'},
-          {text:'C-Sharp',link:'/java/avancado'},
+          {text:'Java Script', link:'/soon'},
+          {text:'Type Script',link:'/soon'},
+          {text:'C-Sharp',link:'/soon'},
         ]
       },
       { 
         text: 'Frameworks', 
         items:[
-          {text:'Spring', link:'/topicos/logica'},
+          {text:'Spring', link:'/soon'},
         ]
       },
       { 
         text: 'Dados', 
         items:[
-          {text:'SQL', link:'/topicos/logica'},
-          {text:'NoSQL', link:'/topicos/logica'},
+          {text:'SQL', link:'/soon'},
+          {text:'NoSQL', link:'/soon'},
         ]
       },
       { 
         text: 'Web', 
         items:[
-          {text:'HTML', link:'/topicos/logica'},
-          {text:'CSS', link:'/topicos/logica'},
+          {text:'HTML', link:'/soon'},
+          {text:'CSS', link:'/soon'},
         ]
       },
       {
