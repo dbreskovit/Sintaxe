@@ -4,24 +4,24 @@ Interessada em dispositivos eletrônicos inteligentes, a Sun Microsystems financ
 
 ![](../../../assets/img/linguagens/java/index-1.jpg )
 
-## **Início do projeto**
+## Início do projeto
 
 Em 1992 a linguagem é batizada de Java, nome este que surgiu em uma cafeteria local, cujo café vinha de uma ilha da Indonésia chamada Java. 
 
 Em 1993 e a Sun aposta no imediato potencial de utilizar Java para criar páginas da Web com o chamado conteúdo dinâmico.
 
-## **Motivações**
+## Motivações
 
 A ideia de criar um interpretador para pequenos dispositivos, facilitando a reescrita de software para aparelhos eletrônicos mas que logo perceberam a sua aderência ao novo fenômeno que surgia, a World Wide Web.
 
 
-## **Dilemas**
+## Dilemas
 Mas o projeto Green atravessava algumas dificuldades. O mercado para dispositivos eletrônicos inteligentes destinados ao consumidor final, não estava se desenvolvendo tão rapidamente como a Sun tinha previsto. Pior ainda, um contrato importante pelo qual a Sun competia fora concedido a outra empresa. 
 
 Então, o projeto estava em risco de cancelamento e por pura sorte, a World Wide Web explodiu em popularidade em 1993 e as pessoas da Sun viram o imediato potencial de utilizar Java para criar páginas da Web com o chamado conteúdo dinâmico. Isso deu nova vida ao projeto.
 
 
-## **Java em todo lugar**
+## Java em todo lugar
 
 Em maio de 1995, a Sun anunciou Java formalmente em uma conferência importante. Normalmente, um evento como esse não teria gerado muita atenção. 
 
@@ -44,6 +44,7 @@ Em 23 de janeiro de 2021 foi celebrado os 25 anos da linguagem Java hoje é mant
 :::
 Características de cada versão
 
+
 | Versão         | Data                       | Recurso                                                                                                                                                                                                                                                                                                                                                    |
 | -------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | JDK 1.0        | 23 de janeiro de 1996      | É a 1ª versão sendo hoje usada para compatibilidade de browsers mais antigos.                                                                                                                                                                                                                                                                              |
@@ -64,7 +65,6 @@ Características de cada versão
 | JAVA SE 15     | Setembro de 2020           | O Java 15, oferece aos desenvolvedores 14 aprimoramentos/alterações, incluindo um módulo de incubadora, três recursos de visualizações, dois recursos obsoletos e duas remoções. Algumas mudanças servem para reduzir o tamanho e o escopo do JDK através da depreciação, que é uma técnica para transmitir informações, sobre o ciclo de vida de uma API. |
 | JAVA SE 16     | Março de 2021              | Foram acrescentados muitos recursos para melhorar a perfomance, consumo de memória e uso da linguagem. Alguns dos novos recursos incluem mudanças no ZGC, suporte à versão 14 do C++ para evolução da JDK e JVM, capacidade elástica do metaspace, novas APIs e ferramentas.                                                                               |
 | JAVA SE 17 LTS | Setembro de 2021           | Entre os novos recursos da nova versão do Java padrão, estão o suporte a filtros de desserialização específicos do contexto, que é um aprimoramento de segurança e uma visualização de correspondência de padrões para instruções switch.                                                                                                                  |
-
 
 ## Exercício
 

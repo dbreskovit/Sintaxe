@@ -6,7 +6,7 @@ export const topicssb = [
           {text:'Lógica', link:'/topicos/logica'},
           {text:'Algorítimos', link:'/topicos/algoritimos'},
           {text:'Java', link:'/topicos/linguagens/java/index'},
-          {text:'Java Script', link:'/soon'},
+          {text:'Java Script', link:'/topicos/linguagens/javascript/index'},
           {text:'Type Script',link:'/soon'},
           {text:'C-Sharp',link:'/soon'},
         ]

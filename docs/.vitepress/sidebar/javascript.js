@@ -1,12 +1,10 @@
 export const javascriptsb = [
-      {
-        text: 'Java Script',collapsible: true,
-        items: [
-        { text: 'WWW', link: '/guide/what-is-vitepress' },
-        { text: 'Era Oracle', link: '/guide/what-is-vitepress', items: [
-          { text: 'Era Sun', link: '/guide/what-is-vitepress' },
-          { text: 'Era Oracle', link: '/guide/what-is-vitepress' },
-        ] },
-        ]
-      }
+  {
+    text: 'Fundamentos',collapsible: true,
+    items: [
+      { text: 'O que é Java Script ?', link:'/topicos/linguagens/javascript/index' },
+      { text: 'Essencial', link:'/soon'   },
+      { text: 'Ambiente de desenvolvimento', link:'/soon' },
+    ]
+  },
 ]
