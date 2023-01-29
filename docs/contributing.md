@@ -19,7 +19,6 @@ Hi! We're really excited that you are interested in contributing to VitePress. B
 
 - It's OK to have multiple small commits as you work on the PR - GitHub can automatically squash them before merging.
 
-- Commit messages must follow the [commit message convention](./commit-convention.md) so that changelogs can be automatically generated.
 
 ## Development Setup
 
@@ -40,7 +39,7 @@ The easiest way to start testing out VitePress is to tweak the VitePress docs. Y
 $ pnpm run docs
 ```
 
-After executing the above command, visit http://localhost:5173 and try modifying the source code. You'll get live update.
+After executing the above command, visit `http://localhost:5173` and try modifying the source code. You'll get live update.
 
 If you don't need docs site up and running, you may start VitePress local dev environment with `pnpm run dev`.
 
