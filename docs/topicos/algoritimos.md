@@ -4,7 +4,7 @@ O algoritmo é a própria sequência de instruções que irão permitir você at
 
 É possível pegar qualquer coisa que a gente faz cotidianamente e transformar em um algoritmo. Basta entender os processos realizados e conseguimos criá-lo. Vamos tomar como exemplo fazer um pão com manteiga para seu café da manhã.
 
-![](../assets/img/java/algoritimos-1.png)
+![](../assets/img/algoritimos-1.png)
 
 ## Pseudocódigo
 
