@@ -39,8 +39,9 @@ export const topicssb = [
       { 
         text: 'Web', 
         items:[
+          {text:'HTTP', link:'/soon'},
           {text:'HTML', link:'/soon'},
-          {text:'CSS', link:'/soon'},
+          {text:'CSS', link:'/soon'}
         ]
       },
       {
