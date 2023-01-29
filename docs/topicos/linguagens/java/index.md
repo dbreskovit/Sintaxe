@@ -76,9 +76,3 @@ Exercício
 
 1. Pesquise e faça um resumo sobre plataforma do Java.
 2. Pesquise e faça um resumo sobre a evolução da linguagem Java.
-
-Teste
-
-
-
-####

@@ -1,6 +1,6 @@
 # sintaxe
- Repositório de conteúdos de programação
+Repositório de conteúdos de programação
 
- npm run docs:dev
+npm run docs:dev
 
-  http://localhost:5173/
+http://localhost:5173/
