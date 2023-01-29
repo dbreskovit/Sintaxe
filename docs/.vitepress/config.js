@@ -34,37 +34,6 @@ export default {
   }
 }
 function menu() {
-  return [
-  
-    { 
-      text: 'Linguagens', 
-      items:[
-        {text:'Lógica', link:'/topicos/logica'},
-        {text:'Algorítimos', link:'/topicos/algoritimos'},
-        {text:'Java', link:'/topicos/linguagens/java/index'},
-        {text:'Java Script', link:'/topicos/linguagens/javascript/index'},
-        {text:'Type Script',link:'/java/intermediario'},
-        {text:'C-Sharp',link:'/java/avancado'},
-      ]
-    },
-    
-    { text: 'Frameworks', link: '/spring/index' },
-    { text: 'Dados', link: '/database/index'},
-    { text: 'Design', link: '/web/index'},
-  
-    {
-      text: version,
-      items: [
-        {
-          text: 'Changelog',
-          link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'
-        },
-        {
-          text: 'Contributing',
-          link: 'https://github.com/vuejs/vitepress/blob/main/.github/contributing.md'
-        }
-      ]
-    }
-  ]
+  return topicssb
 }
 
