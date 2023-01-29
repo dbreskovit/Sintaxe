@@ -1,7 +1,11 @@
 import { version } from '../../package.json'
+import { topicssb } from '../.vitepress/topics'
+
+//LINGUAGENS
 import { javasb } from '../.vitepress/sidebar/java'
 import { javascriptsb } from '../.vitepress/sidebar/javascript'
-import { topicssb } from '../.vitepress/topics'
+import { typescriptsb } from '../.vitepress/sidebar/typescript'
+import { csharpsb } from '../.vitepress/sidebar/c-sharp'
 
 export default {
   lang: 'en-US',
@@ -16,6 +20,8 @@ export default {
       '/topicos/algoritimos': topicssb,
       '/topicos/linguagens/java/': javasb,
       '/topicos/linguagens/javascript/': javascriptsb,
+      '/topicos/linguagens/typescript/': typescriptsb,
+      '/topicos/linguagens/c-sharp/': csharpsb,
     },
 
     editLink: {
