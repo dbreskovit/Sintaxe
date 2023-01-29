@@ -1,0 +1,5 @@
+# TYPESCRIPT
+
+testanto
+
+ola mundo
