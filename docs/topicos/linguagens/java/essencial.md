@@ -1,21 +1,58 @@
-# Uma breve história
+# Ecossistema
 
-Em 1992, A Sun criou um time (conhecido como Green Team) para desenvolver inovações tecnológicas. Esse time foi liderado por James Gosling, considerado o Pai do Java.
+A Linguagem Java é composta por um conjunto bem definido de funcionalidades (features) que são super recomendadas para você entusiasta em programação conhecer o máximo que puder.
 
-![](../../../assets/img/linguagens/java/index-1.jpg )
+Abaixo iremos explorar algumas funcionalidades essenciais para nosso engajamento com a linguagem.
 
-A ideia de criar um interpretador para pequenos dispositivos, facilitando a reescrita de software para aparelhos eletrônicos. O projeto resultou em uma linguagem baseada em C e C++ chamada Oak.
+![](../../../assets/img/linguagens/java/essencial-1.png)
 
-A inspiração do nome Java surgiu em uma cafeteria local, cujo café vinha de uma ilha da Indonésia chamada Java. 1993 e a Sun aposta no imediato potencial de utilizar Java para criar páginas da Web com o chamado conteúdo dinâmico.
+### Simples
 
-## **Java em todo lugar**
+Java é uma linguagem de programação simples e fácil de entender, pois não contém complexidades que existiam em linguagens de programação anteriores. Na verdade, a simplicidade era o objetivo do design dos povos Javasoft, porque ele tem que funcionar em dispositivos eletrônicos onde menos memória/recursos estão disponíveis.
 
-* Páginas da Web com conteúdo interativo e dinâmico;
-* Aplicações corporativas de grande porte;
-* Softwares destinados ao consumidor final;
-* Aplicativos para Smartphones.
+### Orientada a Objeto <a href="#object-oriented" id="object-oriented"></a>
 
-## **Principais características**
+Java é uma linguagem de Programação Orientada a Objetos.                                                           Isso significa que em Java tudo é escrito em termos de CLASSES e OBJETOS.
+
+Para começar a desenvolver softwares de forma consistente com Java, é necessário compreender os pilares da Programação Orientada a Objetos (POO). Eles são:
+
+1. Classe e Objeto;
+2. Encapsulamento;
+3. Abstração;
+4. Herança;
+5. Polimorfismo.
+
+### Plataforma independente <a href="#platform-independent" id="platform-independent"></a>
+
+O objetivo de design do javasoft people é desenvolver uma linguagem que funcione em qualquer plataforma. Uma plataforma é o ambiente de hardware ou software no qual um programa é executado.&#x20;
+
+Em Java, o código-fonte Java é compilado para bytecode e esse bytecode não está vinculado a nenhuma plataforma.
+
+### Portátil
+
+O conceito WORA (Write Once Run Anywhere) e o recurso independente de plataforma tornam o Java portátil. Agora, usando a linguagem de programação Java, os desenvolvedores podem obter o mesmo resultado em qualquer máquina, escrevendo o código apenas uma vez. A razão por trás disso é JVM e bytecode.&#x20;
+
+### Robusta
+
+A linguagem de programação Java é robusta, o que significa que é capaz de lidar com o encerramento inesperado de um programa.&#x20;
+
+* Ele usa um gerenciamento de memória forte;
+* Java fornece coleta de lixo automática;
+* Há tratamento de exceção e mecanismo de verificação de tipo em Java.
+
+### Segura
+
+Problemas como ameaças de vírus, adulteração, espionagem ou representação podem ser tratados ou minimizados usando Java. E nossa construção de aplicativo usando Java também precisa de algum tipo de segurança. Por isso, a linguagem também fornece recursos de segurança para os programadores. Também existem Recursos de criptografia e decriptografia para proteger seus dados contra _espionagem_ e _adulteração_ na Internet.
+
+### Interpretada
+
+Nas linguagens de programação, você aprendeu que eles usam o compilador ou o interpretador, mas a linguagem de programação Java usa os dois. Os programas Java são compilados para gerar arquivos de bytecode e a JVM (Java Virtual Machine) interpreta o arquivo de bytecode durante a execução.
+
+### Multi-thread
+
+Thread é um subprocesso leve e independente de um programa em execução (ou seja, processo) que compartilha recursos. Multi-threading é o nome dado ao processo de vários threads sendo executados simultaneamente.
+
+## Principais características
 
 * **Independente de plataforma:** Programas Java são compilados para uma forma intermediária (bytecodes).
 * **Orientado a objetos:** Java é uma linguagem puramente orientada a objetos; Tudo em Java são classes ou instâncias de classes, com exceção de seus tipos primitivos de dados.
@@ -68,11 +105,7 @@ O Java se subdivide em componentes de desenvolvimento (JDK) e de execução (JRE
 * É composta de uma JVM e por um conjunto de bibliotecas que permite a execução de softwares em Java;
 * Apenas permite a execução de programas, ou seja, é necessário o programa Java compilado pela JDK gerando os arquivos **.class**.
 
-## Evolução da plataforma
 
-Em breve infográfico
+**Referências**
 
-Exercício
-
-1. Pesquise e faça um resumo sobre plataforma do Java.
-2. Pesquise e faça um resumo sobre a evolução da linguagem Java.
+* [Introdução à Plataforma Java - Devmedia](https://www.devmedia.com.br/introducao-as-plataformas-java/29544)

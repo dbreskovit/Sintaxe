@@ -3,7 +3,7 @@ export const javasb = [
         text: 'Fundamentos',collapsible: true,
         items: [
           { text: 'O que é Java ?', link:'/topicos/linguagens/java/index' },
-          { text: 'Essencial', link:'/soon'   },
+          { text: 'Essencial', link:'/topicos/linguagens/java/essencial'   },
           { text: 'Ambiente de desenvolvimento', link:'/soon' },
         ]
       },
