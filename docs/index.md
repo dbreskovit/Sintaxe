@@ -6,8 +6,7 @@ hero:
   text: Aprenda programar
   tagline: Powered by Digytal
   image:
-    src: /dev.svg
-    alt: Sintaxy logo
+    src: /assets/img/dev.png
   actions:
     - theme: brand
       text: Saber mais
