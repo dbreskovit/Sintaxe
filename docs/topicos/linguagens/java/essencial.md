@@ -73,9 +73,7 @@ Thread é um subprocesso leve e independente de um programa em execução (ou se
 **Máquina virtual Java** (em [inglês](https://pt.wikipedia.org/wiki/L%C3%ADngua\_inglesa): _Java Virtual Machine_, **JVM**) é um programa que carrega e executa os aplicativos [Java](https://pt.wikipedia.org/wiki/Linguagem\_de\_programa%C3%A7%C3%A3o\_Java), convertendo os [bytecodes](https://pt.wikipedia.org/wiki/Bytecode\_Java) em código executável de máquina. A JVM é responsável pelo gerenciamento dos aplicativos, à medida que são executados.
 
 Graças à máquina virtual Java, os programas escritos em Java podem funcionar em qualquer plataforma, de hardware e software que possua uma versão da JVM, tornando assim essas aplicações independentes da plataforma onde funcionam.
-
-&#x20;                                                                                                                                                     [_Wikipedia_](https://pt.wikipedia.org/wiki/M%C3%A1quina\_virtual\_Java)__
-
+                                                                                                                                                   
 ![Camada responsável por interpretar os bytecodes para cada sistema operacional](../../../assets/img/linguagens/java/index-3.png)
 
 ## Plataformas Java

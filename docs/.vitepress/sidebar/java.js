@@ -1,10 +1,10 @@
 export const javasb = [
-      {
+    {
         text: 'Fundamentos',collapsible: true,
         items: [
-          { text: 'O que é Java ?', link:'/topicos/linguagens/java/index' },
+          { text: 'O que é Java ?', link:'/topicos/linguagens/java/sobre' },
           { text: 'Essencial', link:'/topicos/linguagens/java/essencial'   },
-          { text: 'Ambiente de desenvolvimento', link:'/soon' },
+          { text: 'Ambiente de desenvolvimento', link:'/topicos/linguagens/java/configuracao-ambiente' },
         ]
       },
       {
