@@ -71,6 +71,6 @@ Características de cada versão
 1. Pesquise e faça um resumo sobre plataforma do Java.
 2. Pesquise e faça um resumo sobre a evolução da linguagem Java.
 
-**Referências**
+###### Referências
 
 * [História do Java - Gustavo Guanabara](https://www.youtube.com/watch?v=sTX0UEplF54&list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR)
