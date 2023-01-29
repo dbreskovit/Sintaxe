@@ -1,12 +1,12 @@
 # Uma breve história
 O TypeScript começou a ser desenvolvido internamente em 2010 pela equipe da Microsoft. O time foi liderado pelo engenheiro de software Anders Hejlsberg, já conhecido pelo desenvolvimento do Delphi e do Turbo Pascal (Borland), além do .NET (Microsoft). A Microsoft lançou a linguagem em 2012. A sua primeira versão foi a 0.8 e hoje está em 4.5 (em 2021, mas com a 4.6 já lançada em Beta).
 
-![](../../../assets/img/linguagens/typescript/index-1.png)
+https://raw.githubusercontent.com/khaosdoctor/blog-assets/master/images/2022/06/10b88c68-typescript-logo.png
 
 ## Características
 O desenvolvedor pode usar TypeScript com Back-end Node.js. Enquanto isso, no Front-end, a linguagem pode ser usada com Angular 4+ ou ainda com Vue.js e React.js. Basicamente, ao codar em TypeScript o código é “transformado” ou transcompilado, conforme o termo técnico, em JavaScript antes de ser executado. 
 
-![](../../../assets/img/linguagens/typescript/index-2.png)
+https://dkrn4sk0rn31v.cloudfront.net/uploads/2021/10/tipagem-no-typescript.png
 
 ## Vantagens
 O que é TypeScript está ligado à satisfação do desenvolvedor em codar com uma linguagem incrível. Só para acrescentar, a linguagem é a mais amada por 72,73% dos desenvolvedores ouvidos na pesquisa Stack OverFlow de 2021. Não é para menos. Confira as vantagens: 
@@ -40,4 +40,3 @@ Com relação a evolução, notamos um crescimento no desenvolvimento de aplicat
 * [Motivação, Diferencial e Evolução - Blog Programathor](https://programathor.com.br/blog/typescript/#:~:text=O%20TypeScript%20tem%20como%20principal,c%C3%B3digos%20relativamente%20pequenos%20e%20simples.)
 
 
-Um dos principais recursos que o TypeScript traz é a utilização da tipagem estática para o JavaScript, que trabalha com tipagem dinâmica. Desta forma o desenvolvedor tem a responsabilidade de declarar qual o tipo da variável que será utilizada. 
