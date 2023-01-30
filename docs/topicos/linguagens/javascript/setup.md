@@ -92,8 +92,9 @@ Posso ser inserida tanto na tag HEAD quanto no final da tag BODY-->
 </html>
 <!-- NOTA: Neste exemplo a tag script está dentro da tag body -->
 ```
+![](../../../assets/img/linguagens/javascript/setup/setup-4.gif)
 ::: warning NOTA
-Para visualizar a mensagem gerada é necessário exibir o recurso `console` do seu navegador usando F12.
+Para visualizar a mensagem gerada é necessário exibir o recurso `console` do seu navegador usando F12 ou a opção `inspencionar`.
 :::
 
 
