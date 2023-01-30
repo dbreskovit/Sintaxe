@@ -4,7 +4,7 @@ JavaScript (frequentemente abreviado como JS) é uma linguagem de programação 
 
 Foi originalmente implementada como parte dos navegadores web para que scripts pudessem ser executados do lado do cliente e interagissem com o usuário sem a necessidade deste script passar pelo servidor.
 
-## Início do projeto
+## Início
 
 JavaScript é uma Linguagem de Programação, criada por Brendan Eich, a pedido da empresa Netscape, em meados de 1995. 
 
@@ -49,17 +49,11 @@ O JS conseguiu, inclusive, eliminar os temíveis “plug-ins de terceiros” de 
 **Referências**
 
 * [História do Java - Gustavo Guanabara](https://www.youtube.com/watch?v=sTX0UEplF54&list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR)
-* [Java Script - Ilustradev](https://ilustradev.com.br/o-que-e-javascript-e-para-que-serve/)
+* [JavaScript - Ilustradev](https://ilustradev.com.br/o-que-e-javascript-e-para-que-serve/)
+* [Evolução - Wikipedia](https://pt.wikipedia.org/wiki/JavaScript)
+* [Diferencial - Superprof](https://www.superprof.pt/blog/a-historia-do-curso-javascript/)
+* [Motivação - Curso CPT](https://www.cpt.com.br/cursos-informatica-desenvolvimentodesoftwares/artigos/linguagem-de-programacao-javascript-um-breve-historico#:~:text=O%20JavaScript%2C%20a%20princ%C3%ADpio%2C%20foi,%C3%A9%20uma%20linguagem%20Client%2Dside.)
+* [Dilemas - Imasters](https://imasters.com.br/)
 
 
-https://pt.wikipedia.org/wiki/JavaScript
-https://rockcontent.com/br/blog/javascript/
-https://www.superprof.pt/blog/a-historia-do-curso-javascript/
-https://imasters.com.br/
-https://sujeitoprogramador.com/wp-content/uploads/2019/08/jsjsjs.png
 
-https://cdn.facesofopensource.com/wp-content/uploads/2017/07/23193713/brendaneich25607.web_.jpg
-
-https://static.platzi.com/media/user_upload/JS-Historia-00ce941e-9988-498a-9ca7-513defeb5d00.jpg
-
-https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg

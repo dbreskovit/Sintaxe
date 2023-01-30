@@ -16,15 +16,15 @@ Algumas IDEs como o [VSCode](https://code.visualstudio.com/docs/java/java-tutori
 * Busque no Google por Java [JDK xxx](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html) (versão desejada);
 * Selecione a opção **.exe** de acordo com o seu sistema operacional.                                             No meu exemplo eu baixei a versão: [jdk-8u202-windows-x64.exe](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html#license-lightbox).
 
-![](../../../assets/img/linguagens/java/configuracao-ambiente-1.png)
+![](../../../assets/img/linguagens/java/setup-1.png)
 
 * Depois, você precisará realizar um login no site da [Oracle](https://login.oracle.com/mysso/signon.jsp).
 
-![](../../../assets/img/linguagens/java/configuracao-ambiente-2.png)
+![](../../../assets/img/linguagens/java/setup-2.png)
 
 * Após realizar o download, executar o instalador para instalar o Java no Windows. Este processo instalará tanto o **JDK** quanto a **JRE**.
 
-![](../../../assets/img/linguagens/java/configuracao-ambiente-3.png)
+![](../../../assets/img/linguagens/java/setup-3.png)
 
 ::: warning
 Evite mudar o diretório de instalação.
@@ -32,12 +32,12 @@ Evite mudar o diretório de instalação.
 
 * Em seu explorer, deve ter algo mais ou menos assim:
 
-![](../../../assets/img/linguagens/java/configuracao-ambiente-4.png)
+![](../../../assets/img/linguagens/java/setuo-4.png)
 
 * Precisamos agora, validar se a instalação também já configurou nossa variável de ambiente, para poder executar o Java pelo Prompt de comando ou PowerShell do Windows.
 * Abra o Prompt de comando e execute o comando `java -version`.
 
-![](../../../assets/img/linguagens/java/configuracao-ambiente-5.png)
+![](../../../assets/img/linguagens/java/setup-5.png)
 
 ::: info
 Não iremos configurar as variáveis de ambiente, pois não é um pré-requisito para desenvolver em Java, considerando que iremos usufruir das mais poderosas IDEs para aumentar nossa produtividade em codificar na linguagem.
@@ -57,7 +57,7 @@ Para aumentar nossa produtividade, nós podemos escolher algumas ferramentas den
 
 Cada IDE dispõe de recursos comuns ou plugins específicos para te auxiliar na agilidade de desenvolvimento.
 
-![](../../../assets/img/linguagens/java/configuracao-ambiente-6.png)
+![](../../../assets/img/linguagens/java/setup-6.png)
 
 ::: tip
 Antes de escolhar sua IDE super recomendamos realizar uma pesquisa e ter uma experiência em cada uma delas.
@@ -100,7 +100,7 @@ Comparando-se em performance, o VS Code demonstra um grande desempenho de inicia
 
 Vamos explorar alguns principais recursos utilizando as IDEs, Eclipse, IntelliJ e VSCode.
 
-![Agora é mão-na-massa galera](../../../assets/img/linguagens/java/configuracao-ambiente-7.gif)
+![Agora é mão-na-massa galera](../../../assets/img/linguagens/java/setup-7.gif)
 
 * O que são workspaces ?
 * Definir a JDK na IDE

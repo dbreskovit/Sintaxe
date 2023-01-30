@@ -4,7 +4,7 @@ export const javasb = [
         items: [
           { text: 'O que é Java ?', link:'/topicos/linguagens/java/sobre' },
           { text: 'Essencial', link:'/topicos/linguagens/java/essencial'   },
-          { text: 'Ambiente de desenvolvimento', link:'/topicos/linguagens/java/configuracao-ambiente' },
+          { text: 'Setup', link:'/topicos/linguagens/java/setup' },
         ]
       },
       {
