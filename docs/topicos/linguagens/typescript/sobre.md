@@ -6,7 +6,6 @@ O TypeScript começou a ser desenvolvido internamente em 2010 pela equipe da Mic
 ## Características
 O desenvolvedor pode usar TypeScript com Back-end Node.js. Enquanto isso, no Front-end, a linguagem pode ser usada com Angular 4+ ou ainda com Vue.js e React.js. Basicamente, ao codar em TypeScript o código é “transformado” ou transcompilado, conforme o termo técnico, em JavaScript antes de ser executado. 
 
-![](../../../assets/img/linguagens/typescript/sobre-2.png)
 
 ## Vantagens
 O que é TypeScript está ligado à satisfação do desenvolvedor em codar com uma linguagem incrível. Só para acrescentar, a linguagem é a mais amada por 72,73% dos desenvolvedores ouvidos na pesquisa Stack OverFlow de 2021. Não é para menos. Confira as vantagens: 
@@ -29,7 +28,7 @@ A proposta do TypeScript é facilitar a programação em Javascript, uma vez que
 
 Um dos principais recursos que o TypeScript traz é a utilização da tipagem estática para o JavaScript, que trabalha com tipagem dinâmica. Desta forma o desenvolvedor tem a responsabilidade de declarar qual o tipo da variável que será utilizada.
 
-![](../../../assets/img/linguagens/typescript/index-2.png)
+![](../../../assets/img/linguagens/typescript/sobre-2.png)
 
 ## Evolução
 Com relação a evolução, notamos um crescimento no desenvolvimento de aplicativos de grandes proporções, sendo escritos em Javascript, embora a criação de aplicativos Javascript em larga escala seja uma tarefa difícil. É aí que surge o TypeScript, para solucionar a criação em larga escala.
