@@ -8,3 +8,7 @@ Changelog - 29/01/2023
 |[Essencial](/topicos/linguagens/java/essencial.html)|-|-|-|
 |[Setup](/topicos/linguagens/java/setup.html)|-|-|-|
 
+Utilizando o bloco de notas
+Utilizando o VS-Code
+Utilizando
+

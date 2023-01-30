@@ -2,7 +2,7 @@ export const javasb = [
     {
         text: 'Fundamentos',collapsible: true,
         items: [
-          { text: 'O que é Java ?', link:'/topicos/linguagens/java/sobre' },
+          { text: 'Sobre', link:'/topicos/linguagens/java/sobre' },
           { text: 'Essencial', link:'/topicos/linguagens/java/essencial'   },
           { text: 'Setup', link:'/topicos/linguagens/java/setup' },
         ]
