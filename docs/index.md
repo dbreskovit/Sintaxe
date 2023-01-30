@@ -9,8 +9,8 @@ hero:
     src: /assets/img/dev.png
   actions:
     - theme: brand
-      text: Saber mais
-      link: /team
+      text: Novidades
+      link: /changelog
     - theme: alt
       text: Nosso GitHub
       link: https://github.com/glysns

@@ -1,8 +1,10 @@
-# Sobre - 29/01/2023
+**Acompanhe nossas atualizações**
 
-* [Sobre Java](/topicos/linguagens/java/sobre.html)
-* [Sobre JavaScript](/topicos/linguagens/javascript/sobre.html)
-* [Sobre TypeScript](/topicos/linguagens/typescript/sobre.html)
-* [Sobre C# (csharp)](/topicos/linguagens/c-sharp/sobre.html)
+Changelog - 29/01/2023
 
+| Java| JavaScript |TypeScript|C#-Sharp|
+|-----|------------|----------|--------|
+|[Sobre](/topicos/linguagens/java/sobre.html)|[Sobre](/topicos/linguagens/java/sobre.html)|[Sobre](/topicos/linguagens/typescript/sobre.html)|[Sobre](/topicos/linguagens/c-sharp/sobre.html)|
+|[Essencial](/topicos/linguagens/java/essencial.html)|-|-|-|
+|[Setup](/topicos/linguagens/java/setup.html)|-|-|-|
 
