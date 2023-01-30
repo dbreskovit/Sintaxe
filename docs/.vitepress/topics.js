@@ -49,7 +49,7 @@ export const topicssb = [
         items: [
           {
             text: 'Changelog',
-            link: 'https://github.com/glysns/digytal-book/commits/main'
+            link:'/changelog'
           },
           {
             text: 'Contributing',
