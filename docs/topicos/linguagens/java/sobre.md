@@ -2,7 +2,7 @@
 
 Interessada em dispositivos eletrônicos inteligentes, a Sun Microsystems financiou uma pesquisa interna com o codinome Green em 1991. O projeto resultou no desenvolvimento de uma linguagem baseada em C e C++ que seu criador, James Gosling considerado o Pai do Java, chamou de Oak (carvalho) em homenagem a uma árvore que dava para a janela do seu escritório na Sun.
 
-![](../../../assets/img/linguagens/java/index-1.jpg )
+![](../../../assets/img/linguagens/java/sobre-1.jpg )
 
 ## Início do projeto
 
@@ -38,7 +38,7 @@ Entretanto, Java gerou interesse imediato na comunidade comercial, por causa do 
 Em 20 de Abril de 2009, A Oracle Inc. uma gigante em banco de dados, compra os direitos da linguagem por US$ 7,4 bilhões vidando uma disputa com força o mercado de servidores.
 
 
-![](../../../assets/img/linguagens/java/index-5.png )
+![](../../../assets/img/linguagens/java/sobre-5.png )
 ::: info
 Em 23 de janeiro de 2021 foi celebrado os 25 anos da linguagem Java hoje é mantida pela Oracle Inc.
 :::

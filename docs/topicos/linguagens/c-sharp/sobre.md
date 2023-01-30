@@ -3,7 +3,7 @@ C# Foi desenvolvida pela Microsoft por uma equipe liderada por Anders Hejlsberg 
 
 O desenvolvimento iniciou em 1999 e a linguagem foi lançada em 2002 como parte da plataforma.
 
-![](../../../assets/img/linguagens/c-sharp/index-1.png )
+![](../../../assets/img/linguagens/c-sharp/sobre-1.png )
 
 
 ## Características
@@ -16,7 +16,7 @@ Algumas outras características do C#:
 * Permite intercâmbio entre linguagens, através do uso de componentes
 * O código em C# é armazenado em arquivos com extensão “.cs”
 
-![](../../../assets/img/linguagens/c-sharp/index-2.png )
+![](../../../assets/img/linguagens/c-sharp/sobre-2.png )
 
 ## Vantagens
 Confira agora as principais vantagens de desvantagens da linguagem de programação C#:

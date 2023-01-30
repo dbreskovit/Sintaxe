@@ -10,7 +10,7 @@ JavaScript é uma Linguagem de Programação, criada por Brendan Eich, a pedido 
 
 No início, o JavaScript foi batizado com outro nome: LiveScript.
 
-![](../../../assets/img/linguagens/javascript/index-1.jpg )
+![](../../../assets/img/linguagens/javascript/sobre-1.jpg )
 
 No entanto, a Netscape não ficou sozinha com o desenvolvimento do JavaScript, a empresa SUN Microsystems interessou-se por ela e entrou de cabeça no desenvolvimento desta nova linguagem, uma vez que acreditava na ideia inovadora que era o JavaScript.
 
@@ -44,7 +44,7 @@ Foi superimportante que a sua principal linguagem de programação também fosse
 
 O JS conseguiu, inclusive, eliminar os temíveis “plug-ins de terceiros” de navegadores, quando vivíamos uma Internet cheia de ferramentas proprietárias e com a performance ruim.
 
-![](../../../assets/img/linguagens/javascript/index-2.jpg )
+![](../../../assets/img/linguagens/javascript/sobre-2.jpg )
 
 **Referências**
 

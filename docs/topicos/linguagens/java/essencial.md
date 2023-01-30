@@ -66,7 +66,7 @@ Thread é um subprocesso leve e independente de um programa em execução (ou se
 * Este arquivo é compilado com o **javac** gerando o arquivo **.class**;
 * O arquivo **.class** não contém código de máquina nativo, e sim o `bytecodes`.
 
-![](../../../assets/img/linguagens/java/index-2.jpg)
+![](../../../assets/img/linguagens/java/sobre-2.jpg)
 
 ## JVM
 
@@ -74,13 +74,13 @@ Thread é um subprocesso leve e independente de um programa em execução (ou se
 
 Graças à máquina virtual Java, os programas escritos em Java podem funcionar em qualquer plataforma, de hardware e software que possua uma versão da JVM, tornando assim essas aplicações independentes da plataforma onde funcionam.
                                                                                                                                                    
-![Camada responsável por interpretar os bytecodes para cada sistema operacional](../../../assets/img/linguagens/java/index-3.png)
+![Camada responsável por interpretar os bytecodes para cada sistema operacional](../../../assets/img/linguagens/java/sobre-3.png)
 
 ## Plataformas Java
 
 A linguagem Java conta com quatro ambientes de desenvolvimento:
 
-![](../../../assets/img/linguagens/java/index-4.png)
+![](../../../assets/img/linguagens/java/sobre-4.png)
 
 * **JSE (Java Standard Edition):** É a base da plataforma; inclui o ambiente de execução e as bibliotecas comuns é voltada a aplicações para PCs e servidores.
 * **JEE (Java Enterprise Edition):** A edição voltada para o desenvolvimento de aplicações corporativas e para a internet.
