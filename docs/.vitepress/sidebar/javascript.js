@@ -1,9 +1,11 @@
+const ROOT = '/topicos/linguagens/javascript/';
 export const javascriptsb = [
   {
-    text: 'Fundamentos',collapsible: true,
+    text: 'Fundamentos',          collapsible: true,
     items: [
-      { text: 'Sobre', link:'/topicos/linguagens/javascript/sobre' },
-      { text: 'Setup', link:'/topicos/linguagens/javascript/setup' }
+      { text: 'Sobre',            link:`${ROOT}/sobre` },
+      { text: 'Essencial',        link:`${ROOT}/essencial` },
+      { text: 'Setup',            link:`${ROOT}/setup` }
     ]
   },
 ]
