@@ -1,6 +1,6 @@
 # Iniciando
 
-Para começar a desenvolver em JavaScript é necessário identificar se o nosso projeto terá a finalidade de renderizar páginas htmls ou desenvolvimento para o back-end como o uso do [Node.Js](https://pt.wikipedia.org/wiki/Node.js).
+Para começar a desenvolver em JavaScript é necessário identificar se o nosso projeto terá a finalidade de renderizar páginas htmls ou desenvolvimento para o back-end como o uso do [Node.Js](https://nodejs.org/en/download/).
 
 Abaixo iremos realizar um passo a passo ilustrando o mínimo necessário para explorar a linguagem JavaScript através de um navegador como: [Google Chrome](https://www.google.com/intl/pt-BR/chrome/) e [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/).
 
@@ -63,13 +63,13 @@ Posso ser inserida tanto na tag HEAD quanto no final da tag BODY-->
 ```
 :::
 
-3. Vamos agora executar nossa tag `<script>` no documento .html, exibindo a mensagem: 'Olá, Mundo!'.
+3. Vamos agora executar nossa tag `<script>` no documento .html, exibindo a mensagem: **Olá, Mundo!** de duas formas:
 ::: details Exibindo na Tela
-```html
-<!-- Usamos document.write para escrever na tela -->
+```html{4}
+<!-- Usamos o comando alert para exibir uma mensagem na tela -->
 <html> 
     <head>
-        <script>document.write('Olá, Mundo!')</script>
+        <script>alert('Olá, Mundo!')</script>
     </head> 
     <body>
         <h1>Minha Primeira Página</h1>
@@ -77,16 +77,26 @@ Posso ser inserida tanto na tag HEAD quanto no final da tag BODY-->
 </html>
 ```
 :::
+
 ::: details Exibindo no Console
-```html
-<!-- Usamos console.log para escrever no console -->
+```html{7}
+<!-- Usamos console.log para escrever a mensagem no console -->
 <html> 
     <head>
-        <script>console.log('Olá, Mundo!')</script>
     </head> 
     <body>
         <h1>Minha Primeira Página</h1>
+        <script>console.log('Olá, Mundo!')</script>
     </body> 
 </html>
+<!-- NOTA: Neste exemplo a tag script está dentro da tag body -->
 ```
+::: warning NOTA
+Para visualizar a mensagem gerada é necessário exibir o recurso `console` do seu navegador usando F12.
 :::
+
+
+
+
+* [Estrutura do Documento - Alura](https://www.alura.com.br/apostila-html-css-javascript/03CA-a-spec-html#:~:text=Um%20documento%20HTML%20v%C3%A1lido%20precisa,DOCTYPE%3E%20.)
+* [Tag Script - Hostinger](https://www.hostinger.com.br/tutoriais/como-adicionar-javascript-no-html)
