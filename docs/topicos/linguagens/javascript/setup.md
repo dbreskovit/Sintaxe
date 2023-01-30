@@ -76,6 +76,7 @@ Posso ser inserida tanto na tag HEAD quanto no final da tag BODY-->
     </body> 
 </html>
 ```
+![](../../../assets/img/linguagens/javascript/setup/setup-3.gif)
 :::
 
 ::: details Exibindo no Console
