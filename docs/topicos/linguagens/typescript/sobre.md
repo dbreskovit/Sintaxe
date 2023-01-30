@@ -17,7 +17,6 @@ O que é TypeScript está ligado à satisfação do desenvolvedor em codar com u
 ## Motivação
 O TypeScript tem como principal objetivo, elevar o nível do Javascript, que inicialmente era utilizado apenas do lado do cliente, em códigos relativamente pequenos e simples. Hoje, isso mudou com a possibilidade de aplicar as melhores práticas de programação à uma arquitetura mais sólida.
 
-https://coodesh.com/blog/wp-content/uploads/2022/10/typescript-e-javascript-scaled.jpg
 
 ## Diferencial
 A proposta do TypeScript é facilitar a programação em Javascript, uma vez que podemos acrescentar a ele o conceito de programação orientada a objetos. Com isso, temos grandes benefícios como:
@@ -27,17 +26,17 @@ A proposta do TypeScript é facilitar a programação em Javascript, uma vez que
 * Fazer uso de princípios como: Encapsulamento, Herança, Abstração e Polimorfismo
 * Compilação para o Javascript, ou seja, toda a programação feita em Typescript será codificada em Javascript
 
-https://raw.githubusercontent.com/khaosdoctor/blog-assets/master/images/2021/09/TypeScriptImage-scaled.jpg
+
+Um dos principais recursos que o TypeScript traz é a utilização da tipagem estática para o JavaScript, que trabalha com tipagem dinâmica. Desta forma o desenvolvedor tem a responsabilidade de declarar qual o tipo da variável que será utilizada.
+
+![](../../../assets/img/linguagens/typescript/index-2.png)
 
 ## Evolução
 Com relação a evolução, notamos um crescimento no desenvolvimento de aplicativos de grandes proporções, sendo escritos em Javascript, embora a criação de aplicativos Javascript em larga escala seja uma tarefa difícil. É aí que surge o TypeScript, para solucionar a criação em larga escala.
 
 
-
-
+**Referências**
 
 * [História, Características e Vantagens - Coodesh](https://coodesh.com/blog/dicionario/o-que-e-typescript/#:~:text=O%20TypeScript%20come%C3%A7ou%20a%20ser,lan%C3%A7ou%20a%20linguagem%20em%202012.)
 * [Motivação, Diferencial e Evolução - Blog Programathor](https://programathor.com.br/blog/typescript/#:~:text=O%20TypeScript%20tem%20como%20principal,c%C3%B3digos%20relativamente%20pequenos%20e%20simples.)
 
-
-Um dos principais recursos que o TypeScript traz é a utilização da tipagem estática para o JavaScript, que trabalha com tipagem dinâmica. Desta forma o desenvolvedor tem a responsabilidade de declarar qual o tipo da variável que será utilizada. 
