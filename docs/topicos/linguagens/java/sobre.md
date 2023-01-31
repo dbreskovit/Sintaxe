@@ -8,7 +8,7 @@ Interessada em dispositivos eletrônicos inteligentes, a Sun Microsystems financ
 
 Em 1992 a linguagem é batizada de Java, nome este que surgiu em uma cafeteria local, cujo café vinha de uma ilha da Indonésia chamada Java. 
 
-Em 1993 e a Sun aposta no imediato potencial de utilizar Java para criar páginas da Web com o chamado conteúdo dinâmico.
+Em 1993 a Sun aposta no imediato potencial de utilizar Java para criar páginas da Web com o chamado conteúdo dinâmico.
 
 ## Motivações
 
@@ -35,7 +35,7 @@ Entretanto, Java gerou interesse imediato na comunidade comercial, por causa do 
 
 ## Evolução da plataforma
 
-Em 20 de Abril de 2009, A Oracle Inc. uma gigante em banco de dados, compra os direitos da linguagem por US$ 7,4 bilhões vidando uma disputa com força o mercado de servidores.
+Em 20 de Abril de 2009, A Oracle Inc. uma gigante em banco de dados, compra os direitos da linguagem por US$ 7,4 bilhões visando uma disputa com força o mercado de servidores.
 
 
 ![](../../../assets/img/linguagens/java/sobre-5.png )
