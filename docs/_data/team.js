@@ -17,7 +17,7 @@ export const time = [
     name: 'Carlos Henrique',
     title: 'JS Trainee',
     org: 'Digytal',
-    desc: 'Iniciante no mundo JavaScript',
+    desc: 'Iniciante no mundo de tecnologia e programação',
     links: [
       { icon: 'github', link: 'https://github.com/carlosnascto' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/carlosnascto/' },
@@ -28,9 +28,9 @@ export const time = [
 
 export const referencias = [
   { 
-    avatar: '../assets/img/canais/java8cia.jpg',
+    avatar: 'https://yt3.googleusercontent.com/ytc/AL5GRJW7EpZTDLBAPiaEMBSV00yLSzFLSOT-Je13Gxwt=s176-c-k-c0x00ffffff-no-rj',
     name: 'Java&Cia',
-    title: 'Java',
+    title: 'Java / JavaScript',
     links: [
       { icon: 'youtube', link: 'https://www.youtube.com/@java8cia' }
     ]
@@ -43,4 +43,52 @@ export const referencias = [
       { icon: 'youtube', link: 'https://www.youtube.com/@loianegroner' }
     ]
   },
+  { 
+    avatar: 'https://avatars.githubusercontent.com/u/30412042?v=4',
+    name: 'Dev Dojo',
+    title: 'Java / SpringBoot',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@DevDojoBrasil' }
+    ]
+  },
+  { 
+    avatar: 'https://avatars.githubusercontent.com/u/25182209?v=4',
+    name: 'Professor Edson Maia',
+    title: 'JavaScript',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@ProfessorEdsonMaia' }
+    ]
+  },
+  { 
+    avatar: 'https://avatars.githubusercontent.com/u/30008907?v=4',
+    name: 'ColorCode',
+    title: 'JavaScript',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@ColorCodeio' }
+    ]
+  },
+  { 
+    avatar: 'https://yt3.googleusercontent.com/ytc/AL5GRJW8V8lBOfj_QFyGFiPD4Bmc0XyzWst37Ije2_Yg8g=s176-c-k-c0x00ffffff-no-rj',
+    name: 'Tiago Matos',
+    title: 'VueJs',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@tiagomatosweb' }
+    ]
+  },
+  { 
+    avatar: 'https://yt3.googleusercontent.com/ytc/AL5GRJUGLWjqBn59m1-6yUAJy8MtXHDlcCHzdNZwbKbcMA=s176-c-k-c0x00ffffff-no-rj',
+    name: 'Rodrigo Branas',
+    title: 'Angular',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@RodrigoBranas' }
+    ]
+  },
+  { 
+    avatar: 'https://yt3.googleusercontent.com/7cf6e5vziUSkculwmCTIy3Ml-Y2vKPblgM6MouDc-vNrnjf4FdzpSyGC_A8gpiC0ToVxjQ9ruw=s176-c-k-c0x00ffffff-no-rj',
+    name: 'Fabricio Vallim',
+    title: 'Postgres',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@FabricioVallimm' }
+    ]
+  }
 ]
