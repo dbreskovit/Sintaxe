@@ -1,4 +1,4 @@
-# Eslcarecendo
+# Esclarecendo
 
 Existe um caso de amor e ódio quando escolhemos aprender programação utilizando a linguagem JavaScript, as razões? São inúmeras, mas a principal delas é:
 
@@ -10,7 +10,7 @@ Nos anos 90, a Microsoft criou o JScript, uma dor de cabeça aos desenvolvedores
 
 A Microsoft, vendo tudo isso que estava acontecendo com o JavaScript, percebeu que era uma boa ideia e, em vez de ajudar no desenvolvimento do JavaScript e se tornar parceira desta linguagem, resolveu seguir um caminho paralelo ao JavaScript e criou o JScript para rodar somente no Internet Explorer, o que causou uma grande dor de cabeça aos desenvolvedores WEB por volta de 1997.
 
-Como o JScript só rodava no Internet Explorer, a ECMA criou O ECMAScript
+Como o JScript só rodava no Internet Explorer, a ECMA criou O ECMAScript.
 
 Não obstante, ao perceber este problema, uma empresa chamada ECMA resolveu padronizar a linguagem de modo que pudesse funcionar em todos os navegadores. Desta ideia, nasceu um padrão chamado ECMA, e a linguagem foi batizada de ECMAScript.
 

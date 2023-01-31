@@ -1,24 +1,24 @@
 // node_modules/vitepress/dist/client/theme-default/index.js
-import "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
-import "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
-import "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/base.css";
-import "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
-import "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
-import "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
-import "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
-import "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
-import "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
-import VPBadge from "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
-import Layout from "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/Layout.vue";
-import NotFound from "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/NotFound.vue";
-import { default as default2 } from "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
-import { default as default3 } from "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
-import { default as default4 } from "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
-import { default as default5 } from "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
-import { default as default6 } from "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
-import { default as default7 } from "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
-import { default as default8 } from "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
-import { default as default9 } from "C:/estudos/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
+import "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
+import "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
+import "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/base.css";
+import "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
+import "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
+import "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
+import "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
+import "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
+import "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
+import VPBadge from "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
+import Layout from "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/Layout.vue";
+import NotFound from "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/NotFound.vue";
+import { default as default2 } from "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
+import { default as default3 } from "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
+import { default as default4 } from "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
+import { default as default5 } from "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
+import { default as default6 } from "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
+import { default as default7 } from "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
+import { default as default8 } from "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
+import { default as default9 } from "C:/digytal/digytal-book/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
 var theme = {
   Layout,
   NotFound,
