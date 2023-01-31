@@ -1,7 +1,7 @@
 # Esclarecendo
 Typescript é um super conjunto de JavaScript, de maneira que pessoas que já utilizam JavaScript têm uma facilidade consideravelmente maior em aprendê-lo.
 
-O Typescript adiciona novas funcionalidades ao JavaScript. O JS, por exemplo, não permite que sejam criadas classes, nem que você trabalhe com módulos, pois a sua tipagem é dinâmica, o que pode ocasionar muitos erros.
+O Typescript adiciona novas funcionalidades ao JavaScript, pois até pouco tempo, o JavaScript por exemplo, não permitia criar classes, e até módulos, com uma tipagem dinâmica, o que ocasionava muitos erros.
 
 ::: warning NOTA
 E esses erros não são apontados no momento da implementação.
@@ -10,14 +10,14 @@ E esses erros não são apontados no momento da implementação.
 ![](../../../assets/img/linguagens/typescript/setup/setup-1.png)
 
 ## Tipagem
-O Typescript, por sua vez, tem uma tipagem estática. E esta é uma das suas principais vantagens! Porque em vez de permitir que você crie um código sem módulos, classes etc, o Typescript exige que sejam construídos códigos mais organizados, e aponta os erros ainda durante a implementação. 
-
-Isso dá uma segurança maior à equipe de desenvolvimento.
+O Typescript, por sua vez, tem uma tipagem estática e esta é uma das suas principais vantagens, porque em vez de permitir que você crie um código sem módulos, classes etc, o Typescript exige que sejam construídos códigos mais organizados, e aponta os erros ainda durante a implementação e isso dá uma segurança maior à equipe de desenvolvimento.
 
 ## TypeScript VS JavaScript
 Por mais que se pareça muito com uma linguagem de programação, é mais apropriado dizer que o TypeScript se define como um conjunto de funcionalidades adicionadas ao JavaScript.
 
-Ou seja, partindo desse princípio, o TypeScript gira em torno dos upgrades da ECMAScript, que tem como foco o JavaScript. É a partir daí que suas funcionalidades ganham “corpo” para serem montadas.
+Ou seja, partindo desse princípio, o TypeScript gira em torno dos upgrades da ECMAScript, que tem como foco o JavaScript. 
+
+É a partir daí que suas funcionalidades ganham “corpo” para serem montadas.
 
 ![](../../../assets/img/linguagens/typescript/setup/setup-2.png)
 

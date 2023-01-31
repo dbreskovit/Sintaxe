@@ -29,9 +29,8 @@ features:
   - title: 💎 Certificação
     details: Iremo te ajudar a ser um profissional certificado e de destaque no mercado.
 ---
-#
-#
-#
+
+
 
 <script setup>
 import {
