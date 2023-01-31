@@ -10,7 +10,9 @@ E esses erros não são apontados no momento da implementação.
 ![](../../../assets/img/linguagens/typescript/setup/setup-1.png)
 
 ## Tipagem
-O Typescript, por sua vez, tem uma tipagem estática. E esta é uma das suas principais vantagens! Porque em vez de permitir que você crie um código sem módulos, classes etc, o Typescript exige que sejam construídos códigos mais organizados, e aponta os erros ainda durante a implementação. Isso dá uma segurança maior à equipe de desenvolvimento.
+O Typescript, por sua vez, tem uma tipagem estática. E esta é uma das suas principais vantagens! Porque em vez de permitir que você crie um código sem módulos, classes etc, o Typescript exige que sejam construídos códigos mais organizados, e aponta os erros ainda durante a implementação. 
+
+Isso dá uma segurança maior à equipe de desenvolvimento.
 
 
 ## TypeScript VS JavaScript
