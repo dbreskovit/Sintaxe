@@ -108,20 +108,30 @@ O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft p
 
 1. Primeiro abriremos a pasta `curso-js` criada anteriormente em um editor de texto agora utilizando o VSCode:
 
+![](../../../assets/img/linguagens/javascript/setup/setup-5.gif)
+
 2. Instalaremos uma extensão no próprio VSCode chamada `Live Server` para abrir e atualizar o `browser` automaticamente: 
 
+![](../../../assets/img/linguagens/javascript/setup/setup-6.gif)
+
 3. Executaremos nosso arquivo `index.html` com a extensão baixada anteriormente:
+
+![](../../../assets/img/linguagens/javascript/setup/setup-7.gif)
 
 ### Usando o RunJs
 
 O RunJs é um aplicativo simples e leve para codificação e execução de código Javascript sem a necessidade de uso do navegador.
 
-1. Inicialmente vamos abrir nosso arquivo `script.js`:
+1. Inicialmente vamos abrir nosso arquivo `script.js` :
+
+![](../../../assets/img/linguagens/javascript/setup/setup-8.gif)
 
 2. Para testarmos executaremos um `console.log` e veremos a mágica acontecer:
 
+![](../../../assets/img/linguagens/javascript/setup/setup-9.gif)
 
 
+#### Referências
 
 * [Estrutura do Documento - Alura](https://www.alura.com.br/apostila-html-css-javascript/03CA-a-spec-html#:~:text=Um%20documento%20HTML%20v%C3%A1lido%20precisa,DOCTYPE%3E%20.)
 * [Tag Script - Hostinger](https://www.hostinger.com.br/tutoriais/como-adicionar-javascript-no-html)
