@@ -1,4 +1,4 @@
-export const core = [
+export const time = [
   {
     avatar: 'https://www.github.com/glysns.png',
     name: 'Gleyson Sampaio',
@@ -26,4 +26,21 @@ export const core = [
   }
 ]
 
-export const emeriti = []
+export const referencias = [
+  { 
+    avatar: '../assets/img/canais/java8cia.jpg',
+    name: 'Java&Cia',
+    title: 'Java',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@java8cia' }
+    ]
+  },
+  { 
+    avatar: 'https://github.com/loiane.png',
+    name: 'Loiane Groner',
+    title: 'Java / Angular',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@loianegroner' }
+    ]
+  },
+]

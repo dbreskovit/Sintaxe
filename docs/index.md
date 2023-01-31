@@ -29,6 +29,9 @@ features:
   - title: 💎 Certificação
     details: Iremo te ajudar a ser um profissional certificado e de destaque no mercado.
 ---
+#
+#
+#
 
 <script setup>
 import {
@@ -37,17 +40,25 @@ import {
   VPTeamPageSection,
   VPTeamMembers
 } from 'vitepress/theme'
-import { core, emeriti } from './_data/team'
+import { time, referencias } from './_data/team'
 </script>
 
+
 <VPTeamPage>
-  <VPTeamPageTitle>
-    <template #title>Time</template>
-    <template #lead>
-       Conheça nossos entusiastas
+  <VPTeamPageSection>
+    <template #title>Referências</template>
+    <template #lead>Profissionais e suas tecnologias</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="referencias" />
     </template>
-  </VPTeamPageTitle>
-  <VPTeamMembers :members="core" />
-  
+  </VPTeamPageSection>
+  <VPTeamPageSection>
+    <template #title>Time</template>
+    <template #lead>Conheça nossos entusiastas</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="time" />
+    </template>
+  </VPTeamPageSection>
 </VPTeamPage>
+
 
