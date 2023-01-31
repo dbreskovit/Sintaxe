@@ -97,8 +97,5 @@ Posso ser inserida tanto na tag HEAD quanto no final da tag BODY-->
 Para visualizar a mensagem gerada é necessário exibir o recurso `console` do seu navegador usando F12 ou a opção `inspencionar`.
 :::
 
-
-
-
 * [Estrutura do Documento - Alura](https://www.alura.com.br/apostila-html-css-javascript/03CA-a-spec-html#:~:text=Um%20documento%20HTML%20v%C3%A1lido%20precisa,DOCTYPE%3E%20.)
 * [Tag Script - Hostinger](https://www.hostinger.com.br/tutoriais/como-adicionar-javascript-no-html)
