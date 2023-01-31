@@ -14,7 +14,6 @@ O Typescript, por sua vez, tem uma tipagem estática. E esta é uma das suas pri
 
 Isso dá uma segurança maior à equipe de desenvolvimento.
 
-
 ## TypeScript VS JavaScript
 Por mais que se pareça muito com uma linguagem de programação, é mais apropriado dizer que o TypeScript se define como um conjunto de funcionalidades adicionadas ao JavaScript.
 

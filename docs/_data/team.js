@@ -110,7 +110,7 @@ export const referencias = [
   { 
     avatar: 'https://yt3.googleusercontent.com/5lIBSV59ROWVjbz78VeNp3GoJPIrGfwSc0MVRSxBhUoVeKBuJw4JVyYz6fTooSW-CTdordQV8Q=s176-c-k-c0x00ffffff-no-rj',
     name: 'Hora de Codar',
-    title: 'Angular',
+    title: 'Angular / TypeScript',
     links: [
       { icon: 'youtube', link: 'https://www.youtube.com/@MatheusBattisti' }
     ]
