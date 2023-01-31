@@ -97,5 +97,31 @@ Posso ser inserida tanto na tag HEAD quanto no final da tag BODY-->
 Para visualizar a mensagem gerada é necessário exibir o recurso `console` do seu navegador usando F12 ou a opção `inspencionar`.
 :::
 
+## Aumente sua Produtividade
+Para agilizar o processo de desenvolvimento, usaremos um editor de código que é basicamente um software feito para uso de programadores para escreverem suas linhas de código.
+
+Usaremos os seguintes: [VSCode](https://code.visualstudio.com/download) e [RunJs](https://runjs.app/).
+
+### Usando o Visual Studio Code
+
+O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS.
+
+1. Primeiro abriremos a pasta `curso-js` criada anteriormente em um editor de texto agora utilizando o VSCode:
+
+2. Instalaremos uma extensão no próprio VSCode chamada `Live Server` para abrir e atualizar o `browser` automaticamente: 
+
+3. Executaremos nosso arquivo `index.html` com a extensão baixada anteriormente:
+
+### Usando o RunJs
+
+O RunJs é um aplicativo simples e leve para codificação e execução de código Javascript sem a necessidade de uso do navegador.
+
+1. Inicialmente vamos abrir nosso arquivo `script.js`:
+
+2. Para testarmos executaremos um `console.log` e veremos a mágica acontecer:
+
+
+
+
 * [Estrutura do Documento - Alura](https://www.alura.com.br/apostila-html-css-javascript/03CA-a-spec-html#:~:text=Um%20documento%20HTML%20v%C3%A1lido%20precisa,DOCTYPE%3E%20.)
 * [Tag Script - Hostinger](https://www.hostinger.com.br/tutoriais/como-adicionar-javascript-no-html)
