@@ -90,5 +90,37 @@ export const referencias = [
     links: [
       { icon: 'youtube', link: 'https://www.youtube.com/@FabricioVallimm' }
     ]
+  },
+  { 
+    avatar: 'https://yt3.googleusercontent.com/VKuVrrgTqg39qayXEgez_e4YSj15EzKI5gKQkghem7EOMGgcNtjp47CL9HMMEYESvS7qtfnyBhM=s176-c-k-c0x00ffffff-no-rj',
+    name: 'Dev Aprender',
+    title: 'JavaScript',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@DevAprender' }
+    ]
+  },
+  { 
+    avatar: 'https://yt3.googleusercontent.com/ytc/AL5GRJV5mB9R_sE_Ct_l_eCIlFvzGQTP9eFqaOcCMmJw3g=s176-c-k-c0x00ffffff-no-rj',
+    name: 'Curso em Vídeo',
+    title: 'Lógica de Programação',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@CursoemVideo/featured' }
+    ]
+  },
+  { 
+    avatar: 'https://yt3.googleusercontent.com/5lIBSV59ROWVjbz78VeNp3GoJPIrGfwSc0MVRSxBhUoVeKBuJw4JVyYz6fTooSW-CTdordQV8Q=s176-c-k-c0x00ffffff-no-rj',
+    name: 'Hora de Codar',
+    title: 'Angular',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@MatheusBattisti' }
+    ]
+  },
+  { 
+    avatar: 'https://yt3.googleusercontent.com/84ALFuw4UCyfL1TyoMU77D-I6xngPjn2X0kbx2bMAyoFzWwR-utcrbDn_MuNJcroPcmU9NdGGQ=s176-c-k-c0x00ffffff-no-rj',
+    name: 'Rafaella Ballerini',
+    title: 'HTML / CSS',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@rafaellaballerini/featured' }
+    ]
   }
 ]
