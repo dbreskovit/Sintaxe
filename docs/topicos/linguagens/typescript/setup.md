@@ -110,7 +110,7 @@ A partir de agora você poderá modificar a origem de seus arquivos `.ts` e o de
 Se preferir altere alguma parte em seu arquivo `script.ts`, salve, e em seguida execute novamente o comando `tsc` para regerar os arquivos `.js`.
 :::
 
-Após validar que tudo está executando conforme esperado, não é produtivo a cada alteração ter compilar nosso código e reiniciar o serviço do Live Server.
+Após validar que tudo está executando conforme esperado, não é produtivo a cada alteração ter que compilar nosso código e reiniciar o serviço do Live Server.
 
 Para agilizar esta etapa repetitiva, execute o comando abaixo:
 
@@ -121,6 +121,10 @@ tsc -w
 Com o comando `tsc -w` a cada modificação e gravação em seu arquivo `.ts` será iniciada a compilação automática atualizando o arquivo `.js`.
 :::
 
+Após uma longa jornada...
+
+![](../../../assets/img/linguagens/typescript/setup/setup-3.gif)
+
 **Referências**
 
-* [TYPESCRIPT NA PRÁTICA - Matheus Battisti](https://www.youtube.com/watch?v=lCemyQeSCV8)
+* [TypeScript na Prática - Matheus Battisti](https://www.youtube.com/watch?v=lCemyQeSCV8)
