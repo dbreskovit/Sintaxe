@@ -28,6 +28,14 @@ export const time = [
 
 export const referencias = [
   { 
+    avatar: 'https://avatars.githubusercontent.com/u/30412042?v=4',
+    name: 'Dev Dojo',
+    title: 'Java / SpringBoot',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@DevDojoBrasil' }
+    ]
+  },
+  { 
     avatar: 'https://yt3.googleusercontent.com/ytc/AL5GRJW7EpZTDLBAPiaEMBSV00yLSzFLSOT-Je13Gxwt=s176-c-k-c0x00ffffff-no-rj',
     name: 'Java&Cia',
     title: 'Java / JavaScript',
@@ -41,14 +49,6 @@ export const referencias = [
     title: 'Java / Angular',
     links: [
       { icon: 'youtube', link: 'https://www.youtube.com/@loianegroner' }
-    ]
-  },
-  { 
-    avatar: 'https://avatars.githubusercontent.com/u/30412042?v=4',
-    name: 'Dev Dojo',
-    title: 'Java / SpringBoot',
-    links: [
-      { icon: 'youtube', link: 'https://www.youtube.com/@DevDojoBrasil' }
     ]
   },
   { 
@@ -68,11 +68,20 @@ export const referencias = [
     ]
   },
   { 
-    avatar: 'https://yt3.googleusercontent.com/ytc/AL5GRJW8V8lBOfj_QFyGFiPD4Bmc0XyzWst37Ije2_Yg8g=s176-c-k-c0x00ffffff-no-rj',
-    name: 'Tiago Matos',
-    title: 'VueJs',
+    avatar: 'https://yt3.googleusercontent.com/VKuVrrgTqg39qayXEgez_e4YSj15EzKI5gKQkghem7EOMGgcNtjp47CL9HMMEYESvS7qtfnyBhM=s176-c-k-c0x00ffffff-no-rj',
+    name: 'Dev Aprender',
+    title: 'JavaScript',
     links: [
-      { icon: 'youtube', link: 'https://www.youtube.com/@tiagomatosweb' }
+      { icon: 'youtube', link: 'https://www.youtube.com/@DevAprender' }
+    ]
+  },
+
+  { 
+    avatar: 'https://yt3.googleusercontent.com/5lIBSV59ROWVjbz78VeNp3GoJPIrGfwSc0MVRSxBhUoVeKBuJw4JVyYz6fTooSW-CTdordQV8Q=s176-c-k-c0x00ffffff-no-rj',
+    name: 'Hora de Codar',
+    title: 'Angular / TypeScript',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@MatheusBattisti' }
     ]
   },
   { 
@@ -84,19 +93,19 @@ export const referencias = [
     ]
   },
   { 
+    avatar: 'https://yt3.googleusercontent.com/ytc/AL5GRJW8V8lBOfj_QFyGFiPD4Bmc0XyzWst37Ije2_Yg8g=s176-c-k-c0x00ffffff-no-rj',
+    name: 'Tiago Matos',
+    title: 'VueJs',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@tiagomatosweb' }
+    ]
+  },
+  { 
     avatar: 'https://yt3.googleusercontent.com/7cf6e5vziUSkculwmCTIy3Ml-Y2vKPblgM6MouDc-vNrnjf4FdzpSyGC_A8gpiC0ToVxjQ9ruw=s176-c-k-c0x00ffffff-no-rj',
     name: 'Fabricio Vallim',
     title: 'Postgres',
     links: [
       { icon: 'youtube', link: 'https://www.youtube.com/@FabricioVallimm' }
-    ]
-  },
-  { 
-    avatar: 'https://yt3.googleusercontent.com/VKuVrrgTqg39qayXEgez_e4YSj15EzKI5gKQkghem7EOMGgcNtjp47CL9HMMEYESvS7qtfnyBhM=s176-c-k-c0x00ffffff-no-rj',
-    name: 'Dev Aprender',
-    title: 'JavaScript',
-    links: [
-      { icon: 'youtube', link: 'https://www.youtube.com/@DevAprender' }
     ]
   },
   { 
@@ -107,14 +116,7 @@ export const referencias = [
       { icon: 'youtube', link: 'https://www.youtube.com/@CursoemVideo/featured' }
     ]
   },
-  { 
-    avatar: 'https://yt3.googleusercontent.com/5lIBSV59ROWVjbz78VeNp3GoJPIrGfwSc0MVRSxBhUoVeKBuJw4JVyYz6fTooSW-CTdordQV8Q=s176-c-k-c0x00ffffff-no-rj',
-    name: 'Hora de Codar',
-    title: 'Angular / TypeScript',
-    links: [
-      { icon: 'youtube', link: 'https://www.youtube.com/@MatheusBattisti' }
-    ]
-  },
+  
   { 
     avatar: 'https://yt3.googleusercontent.com/84ALFuw4UCyfL1TyoMU77D-I6xngPjn2X0kbx2bMAyoFzWwR-utcrbDn_MuNJcroPcmU9NdGGQ=s176-c-k-c0x00ffffff-no-rj',
     name: 'Rafaella Ballerini',
