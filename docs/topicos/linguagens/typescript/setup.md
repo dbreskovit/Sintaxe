@@ -13,5 +13,21 @@ O  NodeJs é um container web de execução de código Javascript. Ele é usado 
 
 1. Em um terminal como o `CMD`, `PowerShell` ou de sua preferência realize os comandos abaixo utilizando o `npm` ou `yarn`.
 
+`vp-raw` class can be directly used on elements too. Style isolation is currently opt-in:
+
+::: details instalando o typescript
+
+- com npm:
+
+  ```sh
+  npm i typescript 
+  ```
+- com yarn:
+  ```sh
+  yarn add typescript 
+  ```
+
+:::
+
 
 
