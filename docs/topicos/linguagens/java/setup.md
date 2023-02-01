@@ -2,14 +2,13 @@
 
 Para começar a desenvolver em Java, é necessário que tenhamos o JDK instalado.
 
-::: tip
-É extremamente relevante, determinar a versão do Java que precisa utilizar diante de alguns requisitos do projeto.
+::: warning :bell: Atenção
+É extremamente relevante, determinar a versão do Java que precisará utilizar diante de alguns requisitos do projeto.
 :::
-Características de cada versão
 
 ## Instalando o JDK no Windows
 
-::: info
+::: info :information_source: Informação
 Algumas IDEs como o [VSCode](https://code.visualstudio.com/docs/java/java-tutorial) já consegue baixar e instalar o JDK e realizar a configuração de forma fácil.
 :::
 
@@ -26,7 +25,7 @@ Algumas IDEs como o [VSCode](https://code.visualstudio.com/docs/java/java-tutori
 
 ![](../../../assets/img/linguagens/java/setup-3.png)
 
-::: warning
+::: warning :bell: Atenção
 Evite mudar o diretório de instalação.
 :::
 
@@ -39,7 +38,7 @@ Evite mudar o diretório de instalação.
 
 ![](../../../assets/img/linguagens/java/setup-5.png)
 
-::: info
+::: info :information_source: Informação
 Não iremos configurar as variáveis de ambiente, pois não é um pré-requisito para desenvolver em Java, considerando que iremos usufruir das mais poderosas IDEs para aumentar nossa produtividade em codificar na linguagem.
 :::
 
@@ -59,7 +58,7 @@ Cada IDE dispõe de recursos comuns ou plugins específicos para te auxiliar na 
 
 ![](../../../assets/img/linguagens/java/setup-6.png)
 
-::: tip
+::: info :information_source: Informação
 Antes de escolhar sua IDE super recomendamos realizar uma pesquisa e ter uma experiência em cada uma delas.
 :::
 
@@ -73,7 +72,7 @@ Antes de escolhar sua IDE super recomendamos realizar uma pesquisa e ter uma exp
 O [Eclipse IDE](https://www.eclipse.org/downloads/) é uma alternativa muita comum de encontrar ambientes de desenvolvimento, principalmente pelo aspecto de uma interface simples, plugins para recursos adicionais, atalhos para operações de menu e de escrita e para quem trabalhar com Java Swing você pode adicionar o plugin [WindowBuilder](https://www.eclipse.org/windowbuilder/download.php) que de dispõe de  uma interface gráfica para criar as telas gerando o código de layout para o desenvolvedor.
 
 
-::: warning
+::: warning :bell: Atenção
 Se houver algum erro, quanto a versão do Java no Eclipse, [veja o vídeo pelo link](https://www.youtube.com/watch?v=CgwpdheXvls)
 :::
 
@@ -111,7 +110,7 @@ Vamos explorar alguns principais recursos utilizando as IDEs, Eclipse, IntelliJ 
 * Executar \ Depurar nosso programa
 * Conhecer alguns atalhos
 
-::: info
+::: info :information_source: Informação
 **Maven**, é uma ferramenta de automação de compilação utilizada primariamente em projetos Java, mas hoje ambém é utilizada para construir e gerenciar projetos escritos em C#, Ruby, Scala e outras linguagens
 :::
 
@@ -133,7 +132,6 @@ Todas as IDEs possuem combinações de comandos que são facilitadores para cria
 | Renomeando variável ou método       | alt+shift+R                 | shift + F6     |
 | Localizar a utilização de um método | ctrl+shift+G                | alt + F7       |
 | Entrar na implementação do método   | ctrl+click                  | ctrl+click     |
-
 
 
 #### Referências

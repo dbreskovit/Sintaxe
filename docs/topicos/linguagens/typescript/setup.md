@@ -30,7 +30,7 @@ A partir desta etapa, você precisará ter noções mínimas sobre NPM e ou Yarn
 2. Em um diretório de sua preferência vamos criar o nosso primeiro código typescript denominado de `script.ts` com o respectivo conteúdo:
 ```js
   function escrever() {
-    console.log('Oi, Mundo');
+    console.log('Meu primeiro código TypeScript');
   }
   //linha responsável por executar a função acima
   escrever();
@@ -42,14 +42,14 @@ Pode parecer que a sintaxe `typescript` é semelhante ao `javascript`, isso é p
 
 3. Os navegadores ainda não entendem arquivos no formato `.ts` sendo assim é necessário executar o comando que **compila/transpila** nosso código para `.js`.
   ```sh
-  tsc
+  tsc script.ts
   ```
 
 ::: info :information_source: Informação
  Após este comando deverá ser criado o arquivo `script.js` compatível com os navegadores
 :::
 
-4. Importe o arquivo `script.js` em um arquivo `.html` ou se preferir poderemos a partir de agora utilizar o NodeJs para executar arquivo `js` fora dos navegadores.
+4. Importe o arquivo gerado `script.js` em um arquivo `.html` ou se preferir poderemos a partir de agora utilizar o NodeJs para executar arquivo `js` fora dos navegadores.
 
 ::: details executando códigos JavaScript
 
@@ -65,7 +65,7 @@ Pode parecer que a sintaxe `typescript` é semelhante ao `javascript`, isso é p
     </body> 
   </html>
   ```
-- vida NodeJs:
+- Via NodeJs:
   ```sh
   node script.js 
   ```

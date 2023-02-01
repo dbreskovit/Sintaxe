@@ -39,7 +39,8 @@ Em 20 de Abril de 2009, A Oracle Inc. uma gigante em banco de dados, compra os d
 
 
 ![](../../../assets/img/linguagens/java/sobre-5.png )
-::: info
+
+::: info :information_source: Informação
 Em 23 de janeiro de 2021 foi celebrado os 25 anos da linguagem Java hoje é mantida pela Oracle Inc.
 :::
 Características de cada versão
