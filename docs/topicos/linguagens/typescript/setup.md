@@ -57,59 +57,6 @@ Pode parecer que a sintaxe `typescript` é semelhante ao `javascript`, isso é p
 node script.js 
 ```
 
-## Node + TypeScript
-A partir de agora vamos explorar os recursos do TypeScript utilizando convenções e recursos mínimos do mercado:
+## tsconfig
 
-Vamos iniciat a construção de um projeto com Node + TypeScript denominado `estudo-ts`.
-
-1. Crie uma pasta demoninada de `estudo-ts`
-
-2. Dentro da pasta iremos iniciar as configurações de nosso projeto
-
-::: details Criando um projeto Node
-
-- com npm:
-
-  ```sh
-  npm init -y
-  ```
-- com yarn:
-  ```sh
-  yarn init -y
-  ```
-:::
-
-::: info :information_source: Informação
- Observe que após a execução do comando abaixo, será criado o arquivo chamado `package.json` com o conteúdo parecio com código abaixo
-:::
-
-```json
-{
-  "name": "estudo-ts",
-  "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-}
-```
-3. Agora precisamos indentificar em nosso projeto que o código será escrito em typescript.
-
-```sh
-tsc --init
-```
-
-::: warning :bell: Atenção
-Duas mudanças aconteceram em seu diretório, primeiro o surgimento da pasta `node_modules` e a alteração do arquivo `package.json` com inclusão do elemento `dependencies`
-:::
-```json
-"dependencies": {
-    "tsc-init": "^2.1.0"
-}
-```
-
-
+...
