@@ -6,9 +6,6 @@ Pelo menos para sistemas operacionais Windows, o NPM já vem com Node.js quando 
 ## Base do TypeScript
 Para escrevermos códigos utilizando o TypeScript devemos saber JavaScript, pois toda a base dele é referente a essa linguagem, dessa maneira, aconselho você antes estudar e aprender [JavaScript](/topicos/linguagens/javascript/sobre.html), para depois, partir para o aprendizado desse superset.
 
-## NodeJs
-O  NodeJs é um container web de execução de código Javascript. Ele é usado para desenvolvermos projetos com Javascript e disponibilizarmos os mesmos na web.
-
 ## Instalação
 
 ::: warning :bell: Atenção
@@ -40,23 +37,70 @@ A partir desta etapa, você precisará ter noções mínimas sobre NPM e ou Yarn
 ```
 
 ::: info :information_source: Informação
-Pode parecer que a sintaxe `typescript` é semelhante ao `javascript`, isso é porqie ainda não exploramos os novos recursos e convenções.
+Pode parecer que a sintaxe `typescript` é semelhante ao `javascript`, isso é porque ainda não exploramos os novos recursos e convenções.
 :::
 
 3. Os navegadores ainda não entendem arquivos no formato `.ts` sendo assim é necessário executar o comando que **compila/transpila** nosso código para `.js`.
   ```sh
-  tsc script.ts 
+  tsc
   ```
 
 ::: info :information_source: Informação
- Como este comando deverá ser criado o arquivo `script.js` compatível com os navegadores
+ Após este comando deverá ser criado o arquivo `script.js` compatível com os navegadores
 :::
 
 4. Importe o arquivo `script.js` em um arquivo `.html` ou se preferir poderemos a partir de agora utilizar o NodeJs para executar arquivo `js` fora dos navegadores.
- ```sh
-node script.js 
-```
+
+::: details executando códigos JavaScript
+
+- Pelo Navegador:
+
+  ```html{3}
+  <html> 
+    <head>
+        <script src="script.js" ></script>
+    </head> 
+    <body>
+        <h1>Meu primeiro código com Typescript</h1>
+    </body> 
+  </html>
+  ```
+- vida NodeJs:
+  ```sh
+  node script.js 
+  ```
+:::
+
+5. VSCode Live Server
+
+A ide VSCode dispõe do plugin [Live Server](/topicos/linguagens/javascript/setup.html#aumente-sua-produtividade) que emula um servidor para testarmos nosso código html com javascript.
 
 ## tsconfig
 
-...
+Um dos recursos que podemos encontrar utilizando o TypeScript é sua configuração de compilação necessário para o projeto através de um arquivo chamado `tsconfig.json`.
+Este arquivo pode ser criado manualmente ou via linha de comando conforme abaixo:
+
+```sh
+tsc --init
+```
+
+A partir de agora você poderá modificar a origem de seus arquivos `.ts` e o destino para os arquivos `.js` que serão compilados, entre outras configurações.
+
+::: info :information_source: Informação
+Se preferir altere alguma parte em seu arquivo `script.ts`, salve, e em seguida execute novamente o comando `tsc` para regerar os arquivos `.js`.
+:::
+
+Após validar que tudo está executando conforme esperado, não é produtivo a cada alteração ter compilar nosso código e reiniciar o serviço do Live Server.
+
+Para agilizar esta etapa repetitiva, execute o comando abaixo:
+
+```sh
+tsc -w
+```
+::: info :information_source: Informação
+Com o comando `tsc -w` a cada modificação e gravação em seu arquivo `.ts` será iniciada a compilação automática atualizando o arquivo `.js`.
+:::
+
+**Referências**
+
+* [TYPESCRIPT NA PRÁTICA - Matheus Battisti](https://www.youtube.com/watch?v=lCemyQeSCV8)
