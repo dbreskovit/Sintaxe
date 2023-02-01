@@ -12,7 +12,27 @@ Para escrevermos códigos utilizando o TypeScript devemos saber JavaScript, pois
 A partir desta etapa, você precisará ter noções mínimas sobre NPM e ou Yarn.
 :::
 
-1. Em um terminal como o `CMD`, `PowerShell` ou de sua preferência realize os comandos abaixo utilizando o `npm` ou `yarn`.
+1. Em um terminal via prompt de comando ou de sua preferência realize os comandos abaixo utilizando o `npm` ou `yarn`:
+
+::: info :information_source: Informação
+É necessário se certificar que o node e/ou yarn estejam instalados através dos comandos abaixo:
+:::
+
+::: details Escolha o gerenciador de pacotes
+- escolhendo npm:
+```sh
+node -v
+
+npm -v
+```
+- escolhendo yarn:
+```sh
+npm install --global yarn
+
+yarn --version
+```
+::: 
+
 
 ::: details instalando o typescript
 
