@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "postcss": "^8.4.21",
+    "postcss-import": "^15.1.0",
     "postcss-prefix-selector": "^1.16.0",
     "vitepress": "^1.0.0-alpha.32",
     "vue": "^3.2.45"

@@ -31,7 +31,7 @@ Evite mudar o diretório de instalação.
 
 * Em seu explorer, deve ter algo mais ou menos assim:
 
-![](../../../assets/img/linguagens/java/setuo-4.png)
+![](../../../assets/img/linguagens/java/setup-4.png)
 
 * Precisamos agora, validar se a instalação também já configurou nossa variável de ambiente, para poder executar o Java pelo Prompt de comando ou PowerShell do Windows.
 * Abra o Prompt de comando e execute o comando `java -version`.
