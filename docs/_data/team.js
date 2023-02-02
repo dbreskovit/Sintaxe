@@ -36,6 +36,30 @@ export const referencias = [
     ]
   },
   { 
+    avatar: 'https://yt3.googleusercontent.com/ytc/AL5GRJVG9-AgVj5nP5iDoAXGD7sr2X-8yQtd3lQJlKOA=s176-c-k-c0x00ffffff-no-rj',
+    name: 'Giuliana Bezerra',
+    title: 'Java / SpringBoot',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@giulianabezerra' }
+    ]
+  },
+  { 
+    avatar: 'https://yt3.googleusercontent.com/nhpCtHTsC_G6yiMnfUgPTiBmyLUmG95Y3wTpvYNTT034xPqzE9HVdqYWYW4tMGtndMmeJfFeMA=s176-c-k-c0x00ffffff-no-rj',
+    name: 'Michelli Brito',
+    title: 'SpringBoot',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@MichelliBrito' }
+    ]
+  },
+  { 
+    avatar: 'https://yt3.googleusercontent.com/ytc/AL5GRJXL2WcMHZwzi4etDJCkFDTAzamnQ66Xp6DsuH_VGFU=s176-c-k-c0x00ffffff-no-rj',
+    name: 'João Ricardo',
+    title: 'Java / Spring',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@joaodutra' }
+    ]
+  },
+  { 
     avatar: 'https://yt3.googleusercontent.com/ytc/AL5GRJW7EpZTDLBAPiaEMBSV00yLSzFLSOT-Je13Gxwt=s176-c-k-c0x00ffffff-no-rj',
     name: 'Java&Cia',
     title: 'Java / JavaScript',
@@ -123,6 +147,14 @@ export const referencias = [
     title: 'HTML / CSS',
     links: [
       { icon: 'youtube', link: 'https://www.youtube.com/@rafaellaballerini/featured' }
+    ]
+  },
+  { 
+    avatar: 'https://yt3.googleusercontent.com/zU_lq0MCqh0glqQ3D6QfMHXaIC_2KMRSsAx3Sfy59AHO-ZTAnio1Wd9swTxkLjv3qwPQQFRGpA=s176-c-k-c0x00ffffff-no-rj',
+    name: 'Danilo Aparecido',
+    title: 'C# / .NET',
+    links: [
+      { icon: 'youtube', link: 'https://www.youtube.com/@torneseumprogramador' }
     ]
   }
 ]
