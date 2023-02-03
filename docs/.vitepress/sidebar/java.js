@@ -5,15 +5,15 @@ export const javasb = [
           { text: 'Sobre', link:'/topicos/linguagens/java/sobre' },
           { text: 'Essencial', link:'/topicos/linguagens/java/essencial'   },
           { text: 'Setup', link:'/topicos/linguagens/java/setup' },
-          { text: 'Sintaxe', link:'/topicos/linguagens/java/sintaxe'},
         ]
       },
       {
         text: 'Básico',collapsible: true, collapsed: true,
         items: [
-          { text: 'Sintaxe', link:'/soon' },
+          { text: 'Sintaxe', link:'/topicos/linguagens/java/sintaxe' },
+          { text: 'Palavras reservadas', link:'/soon' },
           { text: 'Controle de fluxo', link:'/soon' },
-          { text: 'Orientação da objetos', link:'/soon' },
+          { text: 'Orientação a objetos', link:'/soon' },
           { text: 'Power classes', link:'/soon' },
           { text: 'Arrays e coleções', link:'/soon' },
           { text: 'Java N-IO', link:'/soon' },
