@@ -16,3 +16,9 @@ https://dev.to/juanbelieni/typescript-para-iniciantes-como-criar-seu-primeiro-pr
 https://medium.com/devmuch/configurando-e-iniciando-projeto-node-js-com-typescript-ae72199c1103
 https://www.aluiziodeveloper.com.br/criar-aplica%C3%A7%C3%A3o-node-js-com-typescript/
 
+
+npm run docs:build
+
+docs/.vitepress/dist
+
+arrastar a pasta dist dentro do netlify 

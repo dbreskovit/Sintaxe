@@ -25,7 +25,7 @@ features:
   - title: 💻️ Projetos
     details: O mercado de trabalho espera profisionais qualificados, então juntos vamos desenvolver o que há de mais desafiador.
   - title: 🌙 Mentorias
-    details: A qualquer momento iremos te auxiliar nesta nova jornada em busca de novas conquistas
+    details: A qualquer momento iremos te auxiliar nesta nova jornada em busca de novas conquistas.
   - title: 💎 Certificação
     details: Iremos te ajudar a ser um profissional certificado e de destaque no mercado.
 ---
