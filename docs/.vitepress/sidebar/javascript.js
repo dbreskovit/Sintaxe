@@ -5,7 +5,7 @@ export const javascriptsb = [
       { text: 'Sobre', link:'/topicos/linguagens/javascript/sobre' },
       { text: 'Essencial', link:'/topicos/linguagens/javascript/essencial' },
       { text: 'Setup', link:'/topicos/linguagens/javascript/setup' },
-      { text: 'Escopo', link:'/topicos/linguagens/javascript/escopo' }
+      { text: 'Sintaxe', link:'/topicos/linguagens/javascript/sintaxe'}
     ]
   },
 ]

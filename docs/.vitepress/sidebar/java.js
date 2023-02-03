@@ -5,6 +5,7 @@ export const javasb = [
           { text: 'Sobre', link:'/topicos/linguagens/java/sobre' },
           { text: 'Essencial', link:'/topicos/linguagens/java/essencial'   },
           { text: 'Setup', link:'/topicos/linguagens/java/setup' },
+          { text: 'Sintaxe', link:'/topicos/linguagens/java/sintaxe'},
         ]
       },
       {
