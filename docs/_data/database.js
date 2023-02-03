@@ -158,3 +158,26 @@ export const referencias = [
     ]
   }
 ]
+
+export const linguagens = [
+  {
+    avatar: 'https://www.github.com/glysns.png',
+    name: 'Java',
+    title: 'Oracle',
+    links: [
+      { icon: 'google', link: 'https://github.com/glysns' }
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/carlosnascto.png',
+    name: 'Carlos Henrique',
+    title: 'JS Trainee',
+    org: 'Digytal',
+    desc: 'Iniciante no mundo de tecnologia e programação',
+    links: [
+      { icon: 'github', link: 'https://github.com/carlosnascto' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/carlosnascto/' },
+      { icon: 'instagram', link: 'https://instagram.com/carlosnascto' },
+    ]
+  }
+]

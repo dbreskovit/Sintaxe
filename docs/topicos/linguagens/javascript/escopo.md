@@ -1,4 +1,4 @@
-# Introdução 
+## Introdução 
 Escopo é a propriedade que determina onde uma variável pode ser utilizada como um identificador em um programa. Uma variável declarada em uma função é normalmente local; o contexto define o escopo.
 
 Quando você declara um elemento de programa, como uma classe, função ou variável, seu nome só pode ser "visto" e usado em determinadas partes do programa. O contexto no qual um nome é visível é chamado de escopo. 

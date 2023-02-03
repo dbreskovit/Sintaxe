@@ -1,4 +1,4 @@
-# Uma breve história
+## Uma breve história
 C# Foi desenvolvida pela Microsoft por uma equipe liderada por Anders Hejlsberg (responsável também pelo desenvolvimento do Delphi e Turbo Pascal), que inicialmente a denominou como linguagem Cool. 
 
 O desenvolvimento iniciou em 1999 e a linguagem foi lançada em 2002 como parte da plataforma.

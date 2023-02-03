@@ -1,4 +1,4 @@
-# Uma breve história
+## Uma breve história
 
 Interessada em dispositivos eletrônicos inteligentes, a Sun Microsystems financiou uma pesquisa interna com o codinome Green em 1991. O projeto resultou no desenvolvimento de uma linguagem baseada em C e C++ que seu criador, James Gosling considerado o Pai do Java, chamou de Oak (carvalho) em homenagem a uma árvore que dava para a janela do seu escritório na Sun.
 

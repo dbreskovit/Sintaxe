@@ -1,4 +1,4 @@
-# Esclarecendo
+## Esclarecendo
 Typescript é um super conjunto de JavaScript, de maneira que pessoas que já utilizam JavaScript têm uma facilidade consideravelmente maior em aprendê-lo.
 
 O Typescript adiciona novas funcionalidades ao JavaScript, pois até pouco tempo, o JavaScript por exemplo, não permitia criar classes, e até módulos, com uma tipagem dinâmica, o que ocasionava muitos erros.

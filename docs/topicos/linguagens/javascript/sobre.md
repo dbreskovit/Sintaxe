@@ -1,4 +1,4 @@
-# Uma breve história
+## Uma breve história
 
 JavaScript (frequentemente abreviado como JS) é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e funcional). 
 

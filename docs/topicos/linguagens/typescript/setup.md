@@ -1,4 +1,4 @@
-# Iniciando 
+## Iniciando 
 Para instalação e utilização do TypeScript, você precisará do [Node.js](https://nodejs.org/en/download/) instalado e seu gerenciador de pacotes padrão: NPM.
 
 Pelo menos para sistemas operacionais Windows, o NPM já vem com Node.js quando o instalamos.

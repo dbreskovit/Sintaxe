@@ -39,7 +39,7 @@ import {
   VPTeamPageSection,
   VPTeamMembers
 } from 'vitepress/theme'
-import { time, referencias } from './_data/team'
+import { time, referencias } from './_data/database'
 </script>
 
 

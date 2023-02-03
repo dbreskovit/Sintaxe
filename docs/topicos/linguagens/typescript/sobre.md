@@ -1,4 +1,4 @@
-# Uma breve história
+## Uma breve história
 O TypeScript começou a ser desenvolvido internamente em 2010 pela equipe da Microsoft. O time foi liderado pelo engenheiro de software Anders Hejlsberg, já conhecido pelo desenvolvimento do Delphi e do Turbo Pascal (Borland), além do .NET (Microsoft). A Microsoft lançou a linguagem em 2012. A sua primeira versão foi a 0.8 e hoje está em 4.5 (em 2021, mas com a 4.6 já lançada em Beta).
 
 ![](../../../assets/img/linguagens/typescript/sobre-1.png)
