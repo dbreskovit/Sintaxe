@@ -11,7 +11,7 @@ export const javasb = [
         text: 'Básico',collapsible: true, collapsed: true,
         items: [
           { text: 'Sintaxe', link:'/topicos/linguagens/java/sintaxe' },
-          { text: 'Palavras reservadas', link:'/soon' },
+          { text: 'Palavras reservadas', link:'/topicos/linguagens/java/palavras-reservadas' },
           { text: 'Controle de fluxo', link:'/soon' },
           { text: 'Orientação a objetos', link:'/soon' },
           { text: 'Power classes', link:'/soon' },

@@ -57,8 +57,6 @@ class {
 }
 ```
 
-
-
 **Referências**
 
 * [Sintaxe e Semântica - Até o momento](https://www.ateomomento.com.br/sintaxe-e-semantica-forma-e-conteudo-na-producao-de-software/)
