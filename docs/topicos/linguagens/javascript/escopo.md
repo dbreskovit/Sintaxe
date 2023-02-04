@@ -35,7 +35,7 @@ function exibirNome() {
 ```
 
 ::: warning CUIDADO
-Não confuda reatribuição de valores com as palavras reservadas!
+Não confunda reatribuição de valores com as palavras reservadas!
 :::
 
 ## Mais tipos de Escopo

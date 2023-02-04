@@ -11,7 +11,7 @@ Algumas outras características do C#:
 * É uma linguagem visual
 * Dirigida por eventos
 * Possui paradigmas de programação funcional, genérica, declarativa, orientada a objetos e imperativa
-* Por utilizar o conceito de máquina virtual, é possível rodar a aplciação do C# sem envolvimento do sistema operacional. 
+* Por utilizar o conceito de máquina virtual, é possível rodar a aplicação do C# sem envolvimento do sistema operacional. 
 * O Common Language Runtime (CLR) isola a aplicação do sistema operacional
 * Permite intercâmbio entre linguagens, através do uso de componentes
 * O código em C# é armazenado em arquivos com extensão “.cs”
@@ -30,7 +30,7 @@ Confira agora as principais vantagens de desvantagens da linguagem de programaç
 ## Motivação
 Seu objetivo principal era facilitar a troca de informações e serviços pela web, possibilitando a criação de aplicativos portáteis. Utiliza recursos selecionados das linguagens C, C++, Java e JavaScript, com a adição de novas capacidades próprias. 
 
-É multiplataforma, multiparadigma, e, por ser orientada à objetos, é capaz de suportar conceitos como polimorfismo, herança e encapsulamento.
+É multiplataforma, multi-paradigma, e, por ser orientada à objetos, é capaz de suportar conceitos como polimorfismo, herança e encapsulamento.
 
 ## Diferencial
 C# é uma linguagem simples, moderna, com características para o desenvolvimento de software que será aplicável ainda durante muitos anos. 

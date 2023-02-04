@@ -8,7 +8,7 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress build docs && cp -r docs/assets/hero.png hero.png && mv hero.png docs/.vitepress/dist/assets && vitepress preview docs"
   },
   "devDependencies": {
     "postcss": "^8.4.21",
