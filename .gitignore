@@ -1,7 +1,8 @@
 node_modules
 .idea/
+.vscode
+.vitepress
 docs/.vitepress/dist
 docs/.vitepress/temp
 docs/.vitepress/cache
 docs/.vitepress/cache/deps
-.vscode

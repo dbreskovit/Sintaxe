@@ -5,8 +5,8 @@ hero:
   name: Sintaxe
   text: Aprenda programar
   tagline: Powered by Digytal
-  image:
-    src: /assets/img/dev.png
+  image: 
+    src: /assets/hero.png
   actions:
     - theme: brand
       text: Novidades
@@ -23,7 +23,7 @@ features:
   - title: 🔧️ Desafios
     details: Por em prática tudo o que você aprendeu é a melhor certeza da nossa evolução.
   - title: 💻️ Projetos
-    details: O mercado de trabalho espera profisionais qualificados, então juntos vamos desenvolver o que há de mais desafiador.
+    details: O mercado de trabalho espera profissionais qualificados, então juntos vamos desenvolver o que há de mais desafiador.
   - title: 🌙 Mentorias
     details: A qualquer momento iremos te auxiliar nesta nova jornada em busca de novas conquistas.
   - title: 💎 Certificação

@@ -59,7 +59,7 @@ Cada IDE dispõe de recursos comuns ou plugins específicos para te auxiliar na 
 ![](../../../assets/img/linguagens/java/setup-6.png)
 
 ::: info :information_source: Informação
-Antes de escolhar sua IDE super recomendamos realizar uma pesquisa e ter uma experiência em cada uma delas.
+Antes de escolher sua IDE super recomendamos realizar uma pesquisa e ter uma experiência em cada uma delas.
 :::
 
 * Eclipse: Mais utilizada no ambiente corporativo com interface bem interativa.
@@ -93,7 +93,7 @@ Comparando-se em performance, o VS Code demonstra um grande desempenho de inicia
 
 * **Eclipse**: Mais utilizada no ambiente corporativo com interface bem interativa.
 * **NetBeans**: Utilizada mais em ambiente acadêmico e com versão de menu e assistentes em português.
-* **IntelliJ**: Ofereçe muitos recursos de inteligência para agilidade de nosso desenvolvimento, com sugestões de ações bem assertivas.
+* **IntelliJ**: Oferece muitos recursos de inteligência para agilidade de nosso desenvolvimento, com sugestões de ações bem assertivas.
 
 ## Mão na massa
 
@@ -111,7 +111,7 @@ Vamos explorar alguns principais recursos utilizando as IDEs, Eclipse, IntelliJ 
 * Conhecer alguns atalhos
 
 ::: info :information_source: Informação
-**Maven**, é uma ferramenta de automação de compilação utilizada primariamente em projetos Java, mas hoje ambém é utilizada para construir e gerenciar projetos escritos em C#, Ruby, Scala e outras linguagens
+**Maven**, é uma ferramenta de automação de compilação utilizada primariamente em projetos Java, mas hoje também é utilizada para construir e gerenciar projetos escritos em C#, Ruby, Scala e outras linguagens
 :::
 
 ## Atalhos

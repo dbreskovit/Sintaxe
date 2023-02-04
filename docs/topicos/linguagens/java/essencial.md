@@ -26,11 +26,11 @@ Para começar a desenvolver softwares de forma consistente com Java, é necessá
 
 O objetivo de design do javasoft people é desenvolver uma linguagem que funcione em qualquer plataforma. Uma plataforma é o ambiente de hardware ou software no qual um programa é executado.&#x20;
 
-Em Java, o código-fonte Java é compilado para bytecode e esse bytecode não está vinculado a nenhuma plataforma.
+Em Java, o código-fonte Java é compilado para Bytecode e esse Bytecode não está vinculado a nenhuma plataforma.
 
 ### Portátil
 
-O conceito WORA (Write Once Run Anywhere) e o recurso independente de plataforma tornam o Java portátil. Agora, usando a linguagem de programação Java, os desenvolvedores podem obter o mesmo resultado em qualquer máquina, escrevendo o código apenas uma vez. A razão por trás disso é JVM e bytecode.&#x20;
+O conceito WORA (Write Once Run Anywhere) e o recurso independente de plataforma tornam o Java portátil. Agora, usando a linguagem de programação Java, os desenvolvedores podem obter o mesmo resultado em qualquer máquina, escrevendo o código apenas uma vez. A razão por trás disso é JVM e Bytecode.&#x20;
 
 ### Robusta
 
@@ -42,11 +42,11 @@ A linguagem de programação Java é robusta, o que significa que é capaz de li
 
 ### Segura
 
-Problemas como ameaças de vírus, adulteração, espionagem ou representação podem ser tratados ou minimizados usando Java. E nossa construção de aplicativo usando Java também precisa de algum tipo de segurança. Por isso, a linguagem também fornece recursos de segurança para os programadores. Também existem Recursos de criptografia e decriptografia para proteger seus dados contra _espionagem_ e _adulteração_ na Internet.
+Problemas como ameaças de vírus, adulteração, espionagem ou representação podem ser tratados ou minimizados usando Java. E nossa construção de aplicativo usando Java também precisa de algum tipo de segurança. Por isso, a linguagem também fornece recursos de segurança para os programadores. Também existem Recursos de criptografia e descriptografia para proteger seus dados contra _espionagem_ e _adulteração_ na Internet.
 
 ### Interpretada
 
-Nas linguagens de programação, você aprendeu que eles usam o compilador ou o interpretador, mas a linguagem de programação Java usa os dois. Os programas Java são compilados para gerar arquivos de bytecode e a JVM (Java Virtual Machine) interpreta o arquivo de bytecode durante a execução.
+Nas linguagens de programação, você aprendeu que eles usam o compilador ou o interpretador, mas a linguagem de programação Java usa os dois. Os programas Java são compilados para gerar arquivos de Bytecode e a JVM (Java Virtual Machine) interpreta o arquivo de Bytecode durante a execução.
 
 ### Multi-thread
 
@@ -54,7 +54,7 @@ Thread é um subprocesso leve e independente de um programa em execução (ou se
 
 ## Principais características
 
-* **Independente de plataforma:** Programas Java são compilados para uma forma intermediária (bytecodes).
+* **Independente de plataforma:** Programas Java são compilados para uma forma intermediária (Bytecodes).
 * **Orientado a objetos:** Java é uma linguagem puramente orientada a objetos; Tudo em Java são classes ou instâncias de classes, com exceção de seus tipos primitivos de dados.
 * **Coletor de lixo (Garbage Collector):** Possui um mecanismo automático de gerenciamento de memória.
 * **Permite Multithreading:** Recursos que permite o desenvolvimento de aplicações capazes de executar rotinas concorrentemente.
@@ -64,17 +64,17 @@ Thread é um subprocesso leve e independente de um programa em execução (ou se
 
 * Todo código fonte escrito em arquivo texto possui extensão **.java**;
 * Este arquivo é compilado com o **javac** gerando o arquivo **.class**;
-* O arquivo **.class** não contém código de máquina nativo, e sim o `bytecodes`.
+* O arquivo **.class** não contém código de máquina nativo, e sim o `Bytecodes`.
 
 ![](../../../assets/img/linguagens/java/sobre-2.jpg)
 
 ## JVM
 
-**Máquina virtual Java** (em [inglês](https://pt.wikipedia.org/wiki/L%C3%ADngua\_inglesa): _Java Virtual Machine_, **JVM**) é um programa que carrega e executa os aplicativos [Java](https://pt.wikipedia.org/wiki/Linguagem\_de\_programa%C3%A7%C3%A3o\_Java), convertendo os [bytecodes](https://pt.wikipedia.org/wiki/Bytecode\_Java) em código executável de máquina. A JVM é responsável pelo gerenciamento dos aplicativos, à medida que são executados.
+**Máquina virtual Java** (em [inglês](https://pt.wikipedia.org/wiki/L%C3%ADngua\_inglesa): _Java Virtual Machine_, **JVM**) é um programa que carrega e executa os aplicativos [Java](https://pt.wikipedia.org/wiki/Linguagem\_de\_programa%C3%A7%C3%A3o\_Java), convertendo os [Bytecodes](https://pt.wikipedia.org/wiki/Bytecode\_Java) em código executável de máquina. A JVM é responsável pelo gerenciamento dos aplicativos, à medida que são executados.
 
 Graças à máquina virtual Java, os programas escritos em Java podem funcionar em qualquer plataforma, de hardware e software que possua uma versão da JVM, tornando assim essas aplicações independentes da plataforma onde funcionam.
                                                                                                                                                    
-![Camada responsável por interpretar os bytecodes para cada sistema operacional](../../../assets/img/linguagens/java/sobre-3.png)
+![Camada responsável por interpretar os Bytecodes para cada sistema operacional](../../../assets/img/linguagens/java/sobre-3.png)
 
 ## Plataformas Java
 

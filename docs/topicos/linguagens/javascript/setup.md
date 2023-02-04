@@ -1,6 +1,6 @@
 # Iniciando
 
-Para começar a desenvolver em JavaScript é necessário identificar se o nosso projeto terá a finalidade de renderizar páginas htmls ou desenvolvimento para o back-end como o uso do [Node.Js](https://nodejs.org/en/download/).
+Para começar a desenvolver em JavaScript é necessário identificar se o nosso projeto terá a finalidade de renderizar páginas html ou desenvolvimento para o back-end como o uso do [Node.Js](https://nodejs.org/en/download/).
 
 Abaixo iremos realizar um passo a passo ilustrando o mínimo necessário para explorar a linguagem JavaScript através de um navegador como: [Google Chrome](https://www.google.com/intl/pt-BR/chrome/) e [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/).
 
@@ -35,7 +35,7 @@ Conhecendo as principais tags do html
 ::: details A tag HEAD
 ```html
 <!-- Eu sou a tag cabeça onde é possível informar o título da página, 
-os arquivo de estilos e arquivos de escripts como os JavaScripts -->
+os arquivo de estilos e arquivos de e scripts como os JavaScripts -->
 <head>
  ...
 </head>
@@ -94,7 +94,7 @@ Posso ser inserida tanto na tag HEAD quanto no final da tag BODY-->
 ```
 ![](../../../assets/img/linguagens/javascript/setup/setup-4.gif)
 ::: warning NOTA
-Para visualizar a mensagem gerada é necessário exibir o recurso `console` do seu navegador usando F12 ou a opção `inspencionar`.
+Para visualizar a mensagem gerada é necessário exibir o recurso `console` do seu navegador usando F12 ou a opção `inspecionar`.
 :::
 
 ## Aumente sua Produtividade

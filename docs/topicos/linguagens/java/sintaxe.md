@@ -22,7 +22,7 @@ Em Ciência da Computação escopo é um contexto delimitante aos quais valores 
 Em resumo, escopo é a acessibilidade de objetos, variáveis e funções em diferentes partes do código.
 :::
 
-A grande maioria das linguagens oferecm uma estrutura bem definida de codificação, seguindo o pseudocódigo conforme abaixo:
+A grande maioria das linguagens oferecem uma estrutura bem definida de codificação, seguindo o pseudocódigo conforme abaixo:
 
 ```java
 class { 
