@@ -11,12 +11,11 @@ export const javasb = [
         text: 'Básico',collapsible: true, collapsed: true,
         items: [
           { text: 'Sintaxe', link:'/topicos/linguagens/java/sintaxe' },
-          { text: 'Palavras reservadas', link:'/topicos/linguagens/java/palavras-reservadas' },
-          { text: 'Controle de fluxo', link:'/soon' },
+          { text: 'Controle de fluxo', link:'/topicos/linguagens/java/fluxo' },
           { text: 'Orientação a objetos', link:'/soon' },
-          { text: 'Power classes', link:'/soon' },
-          { text: 'Arrays e coleções', link:'/soon' },
-          { text: 'Java N-IO', link:'/soon' },
+         // { text: 'Power classes', link:'/soon' },
+         // { text: 'Arrays e coleções', link:'/soon' },
+         // { text: 'Java N-IO', link:'/soon' },
         ]
       },
       {

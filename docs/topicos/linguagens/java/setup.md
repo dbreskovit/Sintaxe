@@ -1,4 +1,4 @@
-## Configurando o ambiente
+# Configurando o ambiente
 
 Para começar a desenvolver em Java, é necessário que tenhamos o JDK instalado.
 
