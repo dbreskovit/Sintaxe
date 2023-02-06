@@ -4,14 +4,6 @@ Palavras reservadas do java, ou keywords(palavras-chave), são palavras que poss
 
 A linguagem contém 52 palavras distribuídas em categorias com finalidades e fronteiras de uso bem definidas conforme tabela abaixo:
 
-### Modificadores de acesso
-
-| Palavra   | Descrição                                       | Classe | Variável |   Método   |
-| --------- | ----------------------------------------------- | :----: | :------: | :--------: |
-| public    | Acesso de qualquer classe                       |   -    |    X     | no retorno |
-| private   | Acesso apenas dentro da classe                  |   -    |    X     | no retorno |
-| protected | Acesso por classes no mesmo pacote e subclasses |   -    |    X     | no retorno |
-
 ### Tipos primitivos
 
 | Palavra | Descrição                                    | Classe | Variável |   Método   |
@@ -60,6 +52,21 @@ A linguagem contém 52 palavras distribuídas em categorias com finalidades e fr
 | switch     | indica a variável a ser comparada nas expressões case                                                                                          |   -    |    X     | no retorno |
 | while      | executa um bloco de código repetidamente enquanto a condição for verdadeira                                                                    |   -    |    X     | no retorno |
 
+### Controle de pacotes
+
+| Palavra | Descrição                                                          | Classe | Variável |   Método   |
+| ------- | ------------------------------------------------------------------ | :----: | :------: | :--------: |
+| import  | importa pacotes ou classes para dentro do código                   |   -    |    X     | no retorno |
+| package | especifica a que pacote, todas as classes de um arquivo pertencem. |   -    |    X     | no retorno |
+
+### Modificadores de acesso
+
+| Palavra   | Descrição                                       | Classe | Variável |   Método   |
+| --------- | ----------------------------------------------- | :----: | :------: | :--------: |
+| public    | Acesso de qualquer classe                       |   -    |    X     | no retorno |
+| private   | Acesso apenas dentro da classe                  |   -    |    X     | no retorno |
+| protected | Acesso por classes no mesmo pacote e subclasses |   -    |    X     | no retorno |
+
 ### Tratamento de erros
   
 | Palavra | Descrição                                                                                                                   | Classe | Variável |   Método   |
@@ -70,14 +77,6 @@ A linguagem contém 52 palavras distribuídas em categorias com finalidades e fr
 | throw   | usado para passar uma exceção para o método que o chamou                                                                    |   -    |    X     | no retorno |
 | throws  | indica que um método pode passar uma exceção para o método que o chamou                                                     |   -    |    X     | no retorno |
 | try     | bloco de código que tentará ser executado, mas que pode causar uma exceção                                                  |   -    |    X     | no retorno |
-
-
-### Controle de pacotes
-
-| Palavra | Descrição                                                          | Classe | Variável |   Método   |
-| ------- | ------------------------------------------------------------------ | :----: | :------: | :--------: |
-| import  | importa pacotes ou classes para dentro do código                   |   -    |    X     | no retorno |
-| package | especifica a que pacote, todas as classes de um arquivo pertencem. |   -    |    X     | no retorno |
 
 ### Variáveis de referência
 
@@ -93,6 +92,10 @@ A linguagem contém 52 palavras distribuídas em categorias com finalidades e fr
 | const   | não utilize para declarar constantes                                |   -    |    X     | no retorno |
 | goto    | não implementada na linguagem Java, por ser considerada prejudicial |   -    |    X     | no retorno |
 
+
+::: warning :bell: Literais reservados
+De acordo com a Java Language Specification, `null`, `true` e `false` são tecnicamente chamados de valores literais, e não keywords. Se você tentar criar algum identificador com estes valores, você também terá um erro de compilação.
+:::
 
 Referências
 

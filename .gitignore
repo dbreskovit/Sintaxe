@@ -6,3 +6,6 @@ docs/.vitepress/dist
 docs/.vitepress/temp
 docs/.vitepress/cache
 docs/.vitepress/cache/deps
+*.js
+package-lock.json
+yarn.lock
