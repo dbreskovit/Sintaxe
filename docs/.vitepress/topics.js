@@ -4,7 +4,6 @@ export const topicssb = [
     items: [
       { text: "Lógica", link: "/topicos/logica" },
       { text: "Algorítimos", link: "/topicos/algoritimos" },
-      { text: "Nossa Proposta", link: "/topicos/aproposta" },
       { text: "Java", link: "/topicos/linguagens/java/sobre" },
       { text: "JavaScript", link: "/topicos/linguagens/javascript/sobre" },
       { text: "TypeScript", link: "/topicos/linguagens/typescript/sobre" },

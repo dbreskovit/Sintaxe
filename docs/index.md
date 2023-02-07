@@ -12,8 +12,8 @@ hero:
       text: Novidades
       link: /changelog
     - theme: alt
-      text: Nosso GitHub
-      link: https://github.com/glysns
+      text: Nossa Proposta
+      link: /topicos/aproposta
 
 features:
   - title: 📖 Conteúdos

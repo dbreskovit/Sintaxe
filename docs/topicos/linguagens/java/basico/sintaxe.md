@@ -12,7 +12,9 @@ Por exemplo: uma redação bem escrita (sem erros de concordância, gramática e
 
 ## Anatomia e escopo
 
-Em Ciência da Computação escopo é um contexto delimitante aos quais valores e expressões estão associados. Linguagens de programação têm diversos tipos de escopos. O tipo de escopo vai determinar quais tipos de entidades este pode conter e como estas são afetadas, em outras palavras, a sua semântica. Normalmente, o escopo é utilizado para definir o grau de ocultação da informação, isto é, a visibilidade e acessibilidade às variáveis em diferentes partes do programa. Escopos podem:
+Em Ciência da Computação escopo é um contexto delimitante aos quais valores e expressões estão associados. Linguagens de programação têm diversos tipos de escopos. O tipo de escopo vai determinar quais tipos de entidades este pode conter e como estas são afetadas, em outras palavras, a sua semântica. 
+
+Normalmente, o escopo é utilizado para definir o grau de ocultação da informação, isto é, a visibilidade e acessibilidade às variáveis em diferentes partes do programa. Escopos podem:
 
 * Conter declarações ou definições de identificadores;
 * Conter instruções e/ou expressões, que definem um algoritmo executável ou parte dele;
@@ -57,100 +59,170 @@ class {
 }
 ```
 
-## Palavras reservadas
+### Anatomia das classes
 
-Palavras reservadas do java, ou keywords(palavras-chave), são palavras que possuem significado especifico no código.
+```java
+public class MinhaClasse {
 
-A linguagem contém 52 palavras distribuídas em categorias com finalidades e fronteiras de uso bem definidas conforme tabela abaixo:
+  //SEU CÓDIGO AQUI
 
-#### Modificadores de acesso
+}
+```
 
-| Palavra   | Descrição                                       | Classe | Variável |   Método   |
-| --------- | ----------------------------------------------- | :----: | :------: | :--------: |
-| public    | Acesso de qualquer classe                       |   -    |    X     | no retorno |
-| private   | Acesso apenas dentro da classe                  |   -    |    X     | no retorno |
-| protected | Acesso por classes no mesmo pacote e subclasses |   -    |    X     | no retorno |
-
-#### Tipos primitivos
-
-| Palavra | Descrição                                    | Classe | Variável |   Método   |
-| ------- | -------------------------------------------- | :----: | :------: | :--------: |
-| boolean | um valor indicando verdadeiro ou falso       |   -    |    X     | no retorno |
-| byte    | um inteiro de 8 bits (signed)                |   -    |    X     | no retorno |
-| char    | um caráter Unicode (16-bit unsigned)         |   -    |    X     | no retorno |
-| double  | um caráter Unicode (16-bit unsigned)         |   -    |    X     | no retorno |
-| float   | um número de ponto flutuante de 32 bits      |   -    |    X     | no retorno |
-| int     | um inteiro de 32 bits (signed)               |   -    |    X     | no retorno |
-| long    | um inteiro de 64 bits (signed)               |   -    |    X     | no retorno |
-| short   | um inteiro de 32 bits (signed)               |   -    |    X     | no retorno |
-| void    | indica que o método não tem retorno de valor |   -    |    X     | no retorno |
-
-#### Modificadores de classes, variáveis ou métodos
-
-| Palavra      | Descrição                                                                                                                                          | Classe | Variável |   Método   |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :--------: |
-| abstract     | classe que não pode ser instanciada ou método que precisa ser implementado, por uma subclasse não abstrata                                         |   -    |    X     | no retorno |
-| class        | especifica uma classe                                                                                                                              |   -    |    X     | no retorno |
-| extends      | indica a superclasse que a subclasse está estendendo                                                                                               |   -    |    X     | no retorno |
-| final        | impossibilita que uma classe seja estendida, que um método seja sobrescrito ou que uma variável seja reinicializada                                |   -    |    X     | no retorno |
-| implements   | indica as interfaces que uma classe irá implementar                                                                                                |   -    |    X     | no retorno |
-| interface    | especifica uma interface                                                                                                                           |   -    |    X     | no retorno |
-| native       | indica que um método está escrito em uma linguagem dependente de plataforma, como o C                                                              |   -    |    X     | no retorno |
-| new          | instancia um novo objeto, chamando seu construtor                                                                                                  |   -    |    X     | no retorno |
-| static       | faz um método ou variável pertencer à classe ao invés de às instâncias                                                                             |   -    |    X     | no retorno |
-| strictfp     | usado em frente a um método ou classe para indicar que os números de ponto flutuante seguirão as regras de ponto flutuante, em todas as expressões |   -    |    X     | no retorno |
-| synchronized | indica que um método só pode ser acessado por uma thread de cada vez transient: impede a serialização de campos                                    |   -    |    X     | no retorno |
-| volatile     | indica que uma variável pode ser alterada durante o uso de threads                                                                                 |   -    |    X     | no retorno |
-
-#### Controle de fluxo dentro de um bloco de código
-
-| Palavra    | Descrição                                                                                                                                      | Classe | Variável |   Método   |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :--------: |
-| break      | sai do bloco de código em que ele está                                                                                                         |   -    |    X     | no retorno |
-| case       | executa um bloco de código dependendo do teste do switch                                                                                       |   -    |    X     | no retorno |
-| continue   | pula a execução do código que viria, após essa linha e vai para a próxima passagem do loop                                                     |   -    |    X     | no retorno |
-| default    | executa esse bloco de código caso nenhum dos teste de switch-case seja verdadeiro                                                              |   -    |    X     | no retorno |
-| do         | executa um bloco de código uma vez, e então realiza um teste em conjunto com o while para determinar se o bloco deverá ser executado novamente |   -    |    X     | no retorno |
-| else       | executa um bloco de código alternativo caso o teste "if" seja falso                                                                            |   -    |    X     | no retorno |
-| for        | usado para realizar um loop condicional de um bloco de código                                                                                  |   -    |    X     | no retorno |
-| if         | usado para realizar um teste lógico de verdadeiro ou falso                                                                                     |   -    |    X     | no retorno |
-| instanceof | determina se um objeto é uma instância de determinada classe, superclasse ou interface                                                         |   -    |    X     | no retorno |
-| return     | retorna um método sem executar qualquer código, que venha depois desta linha (também pode retornar uma variável)                               |   -    |    X     | no retorno |
-| switch     | indica a variável a ser comparada nas expressões case                                                                                          |   -    |    X     | no retorno |
-| while      | executa um bloco de código repetidamente enquanto a condição for verdadeira                                                                    |   -    |    X     | no retorno |
-
-#### Tratamento de erros
+- 99,9% das nossas classes iniciarão com `public class`.
+- Toda classe precisa de nome, exemplo `MinhaClasse`.
+- Após o nome, precisamos definir o corpo { } onde iremos compor nossas classes com atributos e métodos.
   
-| Palavra | Descrição                                                                                                                   | Classe | Variável |   Método   |
-| ------- | --------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :--------: |
-| assert  | testa uma expressão condicional, para verificar uma suposição do programador                                                |   -    |    X     | no retorno |
-| catch   | declara o bloco de código usado para tratar uma exceção                                                                     |   -    |    X     | no retorno |
-| finally | bloco de código, após um try-catch, que é executado independentemente do fluxo de programa seguido ao lidar com uma exceção |   -    |    X     | no retorno |
-| throw   | usado para passar uma exceção para o método que o chamou                                                                    |   -    |    X     | no retorno |
-| throws  | indica que um método pode passar uma exceção para o método que o chamou                                                     |   -    |    X     | no retorno |
-| try     | bloco de código que tentará ser executado, mas que pode causar uma exceção                                                  |   -    |    X     | no retorno |
+````java
+public class MinhaClasse {
+  // CORPO DA CLASSE
 
+  public static void main(String[] args) {
+    // CORPO DO MÉTODO MAIN
+  }
 
-#### Controle de pacotes
+}
+````
 
-| Palavra | Descrição                                                          | Classe | Variável |   Método   |
-| ------- | ------------------------------------------------------------------ | :----: | :------: | :--------: |
-| import  | importa pacotes ou classes para dentro do código                   |   -    |    X     | no retorno |
-| package | especifica a que pacote, todas as classes de um arquivo pertencem. |   -    |    X     | no retorno |
+- É de suma importância, que agora você consiga se localizar,dentro do conjunto de chaves { } existentes em sua classe.
+- Dentro de uma aplicação, **recomenda-se que somente uma classe possua o método** `main`, responsável por iniciar todo o nosso programa.
+- O método main recebe seu nome main, sempre terá a visibilidade public, será definido como static, não retornará nenhum valor com `void`,e receberá um parâmetro do tipo array de caracteres `String[]`.
 
-#### Variáveis de referência
+### Padrão de nomenclatura
 
-| Palavra | Descrição                             | Classe | Variável |   Método   |
-| ------- | ------------------------------------- | :----: | :------: | :--------: |
-| super   | refere-se a superclasse imediata      |   -    |    X     | no retorno |
-| this    | refere-se a instância atual do objeto |   -    |    X     | no retorno |
+Quando se trata de escrever códigos na linguagem Java, é recomendado seguir algumas convenções de escrita. Esses padrões estão expressos nos itens abaixo:
 
-#### Palavras reservadas não utilizadas
+- Arquivo .java: Todo arquivo .java deve começar com letra MAIÚSCULA. Se a palavra for composta, a segunda palavra deve também ser maiúscula, exemplo:
+  
+  `Calculadora.java`, `CalculadoraCientifica.java`
 
-| Palavra | Descrição                                                           | Classe | Variável |   Método   |
-| ------- | ------------------------------------------------------------------- | :----: | :------: | :--------: |
-| const   | não utilize para declarar constantes                                |   -    |    X     | no retorno |
-| goto    | não implementada na linguagem Java, por ser considerada prejudicial |   -    |    X     | no retorno |
+- Nome da classe no arquivo: A classe deve possuir o mesmo nome do arquivo.java, exemplo:
+
+```java
+// arquivo CalculadoraCientifica.java
+
+public class CalculadoraCientifica {
+
+}
+```
+
+- Nome de variável: toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis dessa forma se chama "camelCase".
+
+::: info :information_source: Informação
+Existe uma regra adicional para variáveis, quando na mesma queremos identificar que ela não sofrerá alteração de valor, exemplo: queremos determinar que uma variável de nome br sempre representará "Brasil" e nunca mudará seu valor, logo, determinamos como escrita o código abaixo:
+:::
+
+```java
+String BR = "Brasil"
+double PI = 3.14
+int ESTADOS_BRASILEIRO = 27
+int ANO_2000 = 2000
+```
+
+::: danger :rotating_light: Atenção
+Recomendações: Para declarar uma variável nós podemos utilizar caracteres, números e símbolos, porém, devemos seguir algumas regras da linguagem.
+:::
+
+- Deve conter apenas letras, _ (underline), $ ou os números de 0 a 9;
+- Deve obrigatoriamente se iniciar por uma letra (preferencialmente), _ ou $, jamais com número;
+- Deve iniciar com uma letra minúscula (boa prática – ver abaixo);
+- Não pode conter espaços;
+- Não podemos usar palavras-chave da linguagem;
+- O nome deve ser único dentro de um escopo.
+
+```java
+// Declação inválida de variáveis
+
+int numero&um = 1; //Os únicos símbolos permitidos são _ e $
+int 1numero = 1;    //Uma variável não pode começar com númerico
+int numero um = 1; //Não pode ter espaço no nome da variável
+int long = 1; //long faz parte das palavras reservadas da linguagem
+ 
+ // Declaração válida de veriáveis
+int numero$um = 1;
+int numero1 = 1;
+int numeroum = 1;
+int longo = 1;
+```
+
+### Estrutura de variáveis e métodos
+
+Como identificar a diferença entre, declaração de variáveis e métodos em nossa programa? Existe uma estrutura comum para ambas as finalidades, exemplo:
+
+- Declarar uma variável em Java segue sempre a seguinte estrutura:
+
+```java
+// Estrutura
+
+Tipo NomeBemDefinido = Atribuicao (opcional em alguns casos)
+
+// Exemplo
+
+int idade = 23;
+double altura = 1.62;
+Dog spike; //observe que aqui a variável spike não tem valor, é normal
+```
+
+- Declarar métodos em Java segue uma estrutura bem simples:
+
+```java	
+// Estrutura
+
+TipoRetorno NomeObjetivoNoInfinitivo Parametro(s)
+
+//Exemplo
+
+int somar (int numeroUm, int numero2)
+
+String formatarCep (long cep)
+```
+
+::: warning :bell: Atenção
+Como parte da estrutura de declaração de variáveis e métodos, também temos o aspecto da **visibilidade**, mas ainda não é necessário nesta etapa de estudos.
+:::
+
+### Estrutura de Indentação
+
+Basicamente **indentar** é um termo utilizado para escrever o código do programa de forma hierárquica, facilitando assim a visualização e o entendimento do programa.
+
+![Indentação](../../../../assets/img/linguagens/java/sintaxe-1.png)
+
+Abaixo, veja um exemplo de um algoritmo de validação, de aprovação de estudante.
+
+- Sem Indentação:
+
+```java
+// arquivo BoletimEstudantil.java
+
+public class BoletimEstudantil {
+public static void main(String[] args) {
+int mediaFinal = 6;
+if(mediaFinal<6)	
+System.out.println("REPROVADO"); 
+else if(mediaFinal==6)
+System.out.println("PROVA MINERVA"); 
+else
+System.out.println("APROVADO"); 		
+}
+}
+```
+
+- Com Indentação:
+
+```java
+public class BoletimEstudantil {
+	public static void main(String[] args) {
+		int mediaFinal = 6;
+		if (mediaFinal < 6)
+			System.out.println("REPROVADO");
+		else if (mediaFinal == 6)
+			System.out.println("PROVA MINERVA");
+		else
+			System.out.println("APROVADO");
+	}
+}
+```
+
 
 ## Tipos e variáveis
 
@@ -368,11 +440,104 @@ public class MyClass {
 }
 ```
 
+## Palavras reservadas
+
+Palavras reservadas do java, ou keywords(palavras-chave), são palavras que possuem significado especifico no código.
+
+A linguagem contém 52 palavras distribuídas em categorias com finalidades e fronteiras de uso bem definidas conforme tabela abaixo:
+
+#### Modificadores de acesso
+
+| Palavra   | Descrição                                       | Classe | Variável | Método |
+| --------- | ----------------------------------------------- | :----: | :------: | :----: |
+| public    | Acesso de qualquer classe                       |   X    |    X     |   X    |
+| private   | Acesso apenas dentro da classe                  |   X    |    X     |   X    |
+| protected | Acesso por classes no mesmo pacote e subclasses |   X    |    X     |   X    |
+
+#### Tipos primitivos
+
+| Palavra | Descrição                                     | Classe | Variável |   Método   |
+| ------- | --------------------------------------------- | :----: | :------: | :--------: |
+| boolean | um valor indicando verdadeiro ou falso        |        |    X     | no retorno |
+| byte    | um inteiro de 8 bits (signed)                 |        |    X     | no retorno |
+| char    | um carácter Unicode (16bit unsigned) (signed) |        |    X     | no retorno |
+| double  | um carácter Unicode (16bit unsigned) (signed) |        |    X     | no retorno |
+| float   | um número de ponto flutuante de 32 bits       |        |    X     | no retorno |
+
+#### Modificadores de classes, variáveis ou métodos
+
+| Palavra      | Descrição                                                                                                                                          | Classe | Variável | Método |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :----: |
+| abstract     | classe que não pode ser instanciada ou método que precisa ser implementado, por uma subclasse não abstrata                                         |   X    |          |        |
+| class        | especifica uma classe                                                                                                                              |   X    |          |        |
+| extends      | indica a superclasse que a subclasse está estendendo                                                                                               |   X    |          |        |
+| final        | impossibilita que uma classe seja estendida, que um método seja sobrescrito ou que uma variável seja reinicializada                                |   X    |    X     |   X    |
+| implements   | indica as interfaces que uma classe irá implementar                                                                                                |   X    |          |        |
+| interface    | especifica uma interface                                                                                                                           |   X    |          |        |
+| native       | indica que um método está escrito em uma linguagem dependente de plataforma, como o C                                                              |        |          |   X    |
+| new          | instancia um novo objeto, chamando seu construtor                                                                                                  |        |    X     |        |
+| static       | faz um método ou variável pertencer à classe ao invés de às instâncias                                                                             |        |    X     |        |
+| strictfp     | usado em frente a um método ou classe para indicar que os números de ponto flutuante seguirão as regras de ponto flutuante, em todas as expressões |        |          |   X    |
+| synchronized | indica que um método só pode ser acessado por uma thread de cada vez                                                                               |        |          |   X    |
+| transient    | impede a serialização de campos                                                                                                                    |        |    X     |        |
+| volatile     | indica que uma variável pode ser alterada durante o uso de threads                                                                                 |        |    X     |        |
+
+#### Controle de fluxo dentro de um bloco de código
+
+| Palavra    | Descrição                                                                                                                                      | Classe | Variável | Método |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :----: |
+| break      | sai do bloco de código em que ele está                                                                                                         |        |          |        |
+| case       | executa um bloco de código dependendo do teste do switch                                                                                       |        |          |        |
+| continue   | pula a execução do código que viria, após essa linha e vai para a próxima passagem do loop                                                     |        |          |        |
+| default    | executa esse bloco de código caso nenhum dos teste de switch-case seja verdadeiro                                                              |        |          |        |
+| do         | executa um bloco de código uma vez, e então realiza um teste em conjunto com o while para determinar se o bloco deverá ser executado novamente |        |          |        |
+| else       | executa um bloco de código alternativo caso o teste "if" seja falso                                                                            |        |          |        |
+| for        | usado para realizar um loop condicional de um bloco de código                                                                                  |        |          |        |
+| if         | usado para realizar um teste lógico de verdadeiro ou falso                                                                                     |        |          |        |
+| instanceof | determina se um objeto é uma instância de determinada classe, superclasse ou interface                                                         |        |          |        |
+| return     | retorna um método sem executar qualquer código, que venha depois desta linha (também pode retornar uma variável)                               |        |          |        |
+| switch     | indica a variável a ser comparada nas expressões case                                                                                          |        |          |        |
+| while      | executa um bloco de código repetidamente enquanto a condição for verdadeira                                                                    |        |          |        |
+
+#### Tratamento de erros
+  
+| Palavra | Descrição                                                                                                                   | Classe | Variável | Método |
+| ------- | --------------------------------------------------------------------------------------------------------------------------- | :----: | :------: | :----: |
+| assert  | testa uma expressão condicional, para verificar uma suposição do programador                                                |        |          |        |
+| catch   | declara o bloco de código usado para tratar uma exceção                                                                     |        |          |        |
+| finally | bloco de código, após um try-catch, que é executado independentemente do fluxo de programa seguido ao lidar com uma exceção |        |          |        |
+| throw   | usado para passar uma exceção para o método que o chamou                                                                    |        |          |        |
+| throws  | indica que um método pode passar uma exceção para o método que o chamou                                                     |        |          |        |
+| try     | bloco de código que tentará ser executado, mas que pode causar uma exceção                                                  |        |          |        |
+
+
+#### Controle de pacotes
+
+| Palavra | Descrição                                                          | Classe | Variável | Método |
+| ------- | ------------------------------------------------------------------ | :----: | :------: | :----: |
+| import  | importa pacotes ou classes para dentro do código                   |   X    |          |        |
+| package | especifica a que pacote, todas as classes de um arquivo pertencem. |   X    |          |        |
+
+#### Variáveis de referência
+
+| Palavra | Descrição                             | Classe | Variável | Método |
+| ------- | ------------------------------------- | :----: | :------: | :----: |
+| super   | refere-se a superclasse imediata      |   X    |          |        |
+| this    | refere-se a instância atual do objeto |   X    |          |   X    |
+
+#### Palavras reservadas não utilizadas
+
+| Palavra | Descrição                                                           | Classe | Variável | Método |
+| ------- | ------------------------------------------------------------------- | :----: | :------: | :----: |
+| const   | não utilize para declarar constantes                                |        |          |        |
+| goto    | não implementada na linguagem Java, por ser considerada prejudicial |        |          |        |
+
+
 ## Operadores
 
 Você já ouviu aquela frase antiga que diz que programação é simplesmente uma lista de instruções lógicas que, quando executadas, nos entregam resultados incríveis? Bem, é isso mesmo! Quando começarmos a escrever o nosso primeiro código, logo perceberemos que uma das coisas mais comuns é pedir informações ao usuário, fazer algumas operações lógicas e, em seguida, apresentar o resultado final. 
 
-![Operadores](../../../assets/img/linguagens/java/sintaxe-1.png)
+![Operadores](../../../../assets/img/linguagens/java/sintaxe-2.png)
 
 
 ### Classificação do operadores
@@ -467,7 +632,8 @@ boolean verdadeiro = true;
 System.out.println("Inverteu " + !verdadeiro);
 ```
 
-::: danger :rotating_light: Muito cuidado com ordem de precedência, dos operadores unários!
+::: danger :rotating_light: Atenção
+Muito cuidado com ordem de precedência, dos operadores unários!
 :::
 
 ### Ternário
@@ -565,7 +731,7 @@ public static void main(String[] args) {
         System.out.println(nome2.equals(nome3)); //??
         System.out.println(nome3.equals(nome4)); //??
 
-    }
+}
 ```
 
 **== versus equals:** Quando estamos comparando valores primitivos, como int, double, float, long, short, byte, char, boolean, usamos o operador ==. Quando estamos comparando objetos, usamos o método equals.
@@ -653,3 +819,4 @@ System.out.println("O numero 2 agora é " + numero2);
 * [Sintaxe e Semântica - Até o momento](https://www.ateomomento.com.br/sintaxe-e-semantica-forma-e-conteudo-na-producao-de-software/)
 * [Palavras Reservadas - Linha do Código](http://www.linhadecodigo.com.br/artigo/83/as-52-palavras-reservadas-do-java.aspx)
 * [Palavras Reservadas - Como Programar](https://comoprogramarjava.com.br/frameworks/java-base/palavras-reservadas-do-java/)
+
