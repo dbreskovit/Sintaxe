@@ -11,7 +11,8 @@ export const javascriptsb = [
     text: 'Básico',collapsible: true, collapsed: true,
     items: [
       { text: 'Sintaxe', link:'/topicos/linguagens/javascript/sintaxe' },
-      { text: 'Palavras reservadas', link:'/soon' },
+      { text: 'Tipos e Variáveis', link:'/topicos/linguagens/javascript/tipos-variaveis' },
+      { text: 'Palavras Reservadas', link:'/topicos/linguagens/javascript/palavras-reservadas' }
     ]
   },
 ]
